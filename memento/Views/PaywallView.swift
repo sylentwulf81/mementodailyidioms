@@ -13,69 +13,71 @@ struct PaywallView: View {
     @EnvironmentObject private var paywallManager: PaywallManager
     
     var body: some View {
-        VStack(spacing: 0) {
-            // Handlebar indicator
-            HandlebarIndicator()
-            
-            ScrollView {
-                VStack(spacing: 24) {
-                    // Header
-                    VStack(spacing: 16) {
-                        Image(systemName: "crown.fill")
-                            .font(.system(size: 64))
-                            .foregroundColor(.yellow)
-                        
-                        Text("Memento Pro")
-                            .font(.largeTitle)
-                            .fontWeight(.bold)
-                        
-                        Text("アメリカ英語のイディオムを深く理解する")
-                            .font(.headline)
-                            .foregroundColor(.secondary)
-                    }
-                    
-                    // Features
-                    VStack(alignment: .leading, spacing: 16) {
-                        Text("Pro会員の特典")
-                            .font(.title2)
-                            .fontWeight(.semibold)
-                        
-                        VStack(alignment: .leading, spacing: 12) {
-                            FeatureRow(icon: "book.fill", title: "全イディオムライブラリ", description: "120以上のイディオムにアクセス")
-                            FeatureRow(icon: "speaker.wave.2.fill", title: "自然な音声", description: "ElevenLabsの高品質音声")
-                            FeatureRow(icon: "wifi.slash", title: "オフライン音声", description: "ダウンロードしてオフラインで利用")
-                            FeatureRow(icon: "pencil.and.outline", title: "無制限クイズ", description: "好きなだけ練習できます")
-                        }
-                    }
-                    
-                    // Pricing
-                    VStack(spacing: 16) {
-                        VStack(spacing: 8) {
-                            Text("月額 ¥360")
-                                .font(.title)
+        NavigationView {
+            VStack(spacing: 0) {
+                // Handlebar indicator
+                HandlebarIndicator()
+                
+                ScrollView {
+                    VStack(spacing: 24) {
+                        // Header
+                        VStack(spacing: 16) {
+                            Image(systemName: "crown.fill")
+                                .font(.system(size: 64))
+                                .foregroundColor(.yellow)
+                            
+                            Text("Memento Pro")
+                                .font(.largeTitle)
                                 .fontWeight(.bold)
                             
-                            Text("7日間無料トライアル")
-                                .font(.caption)
+                            Text("アメリカ英語のイディオムを深く理解する")
+                                .font(.headline)
                                 .foregroundColor(.secondary)
                         }
                         
-                        Button("Pro会員になる") {
-                            // TODO: Implement StoreKit2 purchase
-                            isPro = true
-                            paywallManager.hidePaywall()
-                            dismiss()
+                        // Features
+                        VStack(alignment: .leading, spacing: 16) {
+                            Text("Pro会員の特典")
+                                .font(.title2)
+                                .fontWeight(.semibold)
+                            
+                            VStack(alignment: .leading, spacing: 12) {
+                                FeatureRow(icon: "book.fill", title: "全イディオムライブラリ", description: "120以上のイディオムにアクセス")
+                                FeatureRow(icon: "speaker.wave.2.fill", title: "自然な音声", description: "ElevenLabsの高品質音声")
+                                FeatureRow(icon: "wifi.slash", title: "オフライン音声", description: "ダウンロードしてオフラインで利用")
+                                FeatureRow(icon: "pencil.and.outline", title: "無制限クイズ", description: "好きなだけ練習できます")
+                            }
                         }
-                        .buttonStyle(.borderedProminent)
-                        .controlSize(.large)
                         
-                        Button("購入を復元") {
-                            // TODO: Implement StoreKit2 restore
+                        // Pricing
+                        VStack(spacing: 16) {
+                            VStack(spacing: 8) {
+                                Text("月額 ¥360")
+                                    .font(.title)
+                                    .fontWeight(.bold)
+                                
+                                Text("7日間無料トライアル")
+                                    .font(.caption)
+                                    .foregroundColor(.secondary)
+                            }
+                            
+                            Button("Pro会員になる") {
+                                // TODO: Implement StoreKit2 purchase
+                                isPro = true
+                                paywallManager.hidePaywall()
+                                dismiss()
+                            }
+                            .buttonStyle(.borderedProminent)
+                            .controlSize(.large)
+                            
+                            Button("購入を復元") {
+                                // TODO: Implement StoreKit2 restore
+                            }
+                            .font(.caption)
                         }
-                        .font(.caption)
                     }
+                    .padding()
                 }
-                .padding()
             }
             .navigationTitle("")
             .navigationBarTitleDisplayMode(.inline)
