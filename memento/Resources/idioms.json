@@ -1,0 +1,2943 @@
+[
+  {
+    "id": "A1-1",
+    "title": "Long time no see",
+    "jpMeaning": "久しぶり",
+    "enMeaning": "It's been a while since we last met",
+    "nuance": "久しぶりに会った人に対する挨拶の表現。直訳すると「長い間見ていません」ですが、実際には「久しぶり」という意味で使われます。",
+    "examples": [
+      {
+        "english": "Long time no see! How have you been?",
+        "japanese": "久しぶり！元気だった？",
+        "tone": "casual"
+      },
+      {
+        "english": "Long time no see, Mr. Johnson. It's good to see you again.",
+        "japanese": "久しぶりですね、ジョンソンさん。またお会いできて嬉しいです。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["挨拶", "久しぶり"],
+    "level": "A1",
+    "isPremium": false
+  },
+  {
+    "id": "A1-2",
+    "title": "What's up",
+    "jpMeaning": "どうしたの？元気？",
+    "enMeaning": "What's happening? How are you?",
+    "nuance": "カジュアルな挨拶表現。「何が起こっているか」という直訳から、近況を尋ねる表現として使われます。",
+    "examples": [
+      {
+        "english": "Hey! What's up?",
+        "japanese": "やあ！どうしたの？",
+        "tone": "casual"
+      },
+      {
+        "english": "What's up with you these days?",
+        "japanese": "最近どうしてる？",
+        "tone": "casual"
+      }
+    ],
+    "tags": ["挨拶", "カジュアル"],
+    "level": "A1",
+    "isPremium": false
+  },
+  {
+    "id": "A1-3",
+    "title": "No problem",
+    "jpMeaning": "難しくない、迷惑ではない",
+    "enMeaning": "It's not difficult; it's not an inconvenience",
+    "nuance": "「問題ない」という意味の表現。「ありがとう」に対する返答や、何かを頼まれた時の返答として使われます。",
+    "examples": [
+      {
+        "english": "Thanks for helping me. - No problem!",
+        "japanese": "助けてくれてありがとう。 - 問題ないよ！",
+        "tone": "casual"
+      },
+      {
+        "english": "Can you help me with this? - No problem at all.",
+        "japanese": "これを手伝ってもらえますか？ - 全く問題ありません。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["返答", "問題ない"],
+    "level": "A1",
+    "isPremium": false
+  },
+  {
+    "id": "A1-4",
+    "title": "Take care",
+    "jpMeaning": "お気をつけて、元気で",
+    "enMeaning": "Be careful, stay well",
+    "nuance": "別れの挨拶として使われる表現。「気をつける」という直訳から、相手の健康や安全を願う気持ちを表します。",
+    "examples": [
+      {
+        "english": "See you later! Take care!",
+        "japanese": "またね！お気をつけて！",
+        "tone": "casual"
+      },
+      {
+        "english": "Have a safe trip. Take care.",
+        "japanese": "安全な旅を。お気をつけて。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["別れ", "気をつけて"],
+    "level": "A1",
+    "isPremium": false
+  },
+  {
+    "id": "A1-5",
+    "title": "See you later",
+    "jpMeaning": "また後で、さようなら",
+    "enMeaning": "Goodbye, see you again",
+    "nuance": "別れの挨拶として使われる表現。「後で会いましょう」という意味で、再会を前提とした親しみやすい別れの表現です。",
+    "examples": [
+      {
+        "english": "I have to go now. See you later!",
+        "japanese": "もう行かなきゃ。また後で！",
+        "tone": "casual"
+      },
+      {
+        "english": "The meeting is over. See you later, everyone.",
+        "japanese": "会議は終わりました。皆さん、また後でお会いしましょう。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["別れ", "また"],
+    "level": "A1",
+    "isPremium": false
+  },
+  {
+    "id": "1",
+    "title": "Break a leg",
+    "jpMeaning": "頑張って！成功を祈る！",
+    "enMeaning": "Good luck!",
+    "nuance": "舞台芸術の世界で「幸運を祈る」という意味で使われる表現。直訳すると「足を折る」ですが、実際には逆の意味で、成功を願う気持ちを表します。",
+    "examples": [
+      {
+        "english": "Good luck with your presentation! Break a leg!",
+        "japanese": "プレゼンテーション頑張って！成功を祈ってるよ！",
+        "tone": "casual"
+      },
+      {
+        "english": "Hey, break a leg at your job interview",
+        "japanese": "ねえ、就職の面接がうまくいくように頑張って！",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["舞台", "成功", "励まし"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "2",
+    "title": "Piece of cake",
+    "jpMeaning": "簡単だよ！朝飯前！",
+    "enMeaning": "Something very easy",
+    "nuance": "「ケーキ一切れ」から派生した表現で、とても簡単なことを表します。",
+    "examples": [
+      {
+        "english": "This test was a piece of cake!",
+        "japanese": "このテストは簡単だったよ！",
+        "tone": "casual"
+      },
+      {
+        "english": "The project was a piece of cake to complete.",
+        "japanese": "そのプロジェクトは簡単に完了できました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["簡単", "成功"],
+    "level": "A2",
+    "isPremium": false
+  },
+  {
+    "id": "3",
+    "title": "Under the weather",
+    "jpMeaning": "体調が悪い、気分が優れない",
+    "enMeaning": "Feeling unwell",
+    "nuance": "天候の下にいることから、体調が良くない状態を表します。",
+    "examples": [
+      {
+        "english": "I'm feeling under the weather today.",
+        "japanese": "今日は体調が悪いです。",
+        "tone": "casual"
+      },
+      {
+        "english": "She's been under the weather all week.",
+        "japanese": "彼女は今週ずっと体調が悪いです。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["体調", "健康"],
+    "level": "A2",
+    "isPremium": false
+  },
+  {
+    "id": "4",
+    "title": "Hit the books",
+    "jpMeaning": "勉強する、本を読む",
+    "enMeaning": "Study hard",
+    "nuance": "本を叩くことから、一生懸命勉強することを意味します。",
+    "examples": [
+      {
+        "english": "I have an exam tomorrow, so I really need to hit the books.",
+        "japanese": "明日試験があるから、本を読んで勉強しなきゃ。",
+        "tone": "casual"
+      },
+      {
+        "english": "The students are hitting the books for finals.",
+        "japanese": "学生たちは期末試験のために勉強しています。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["勉強", "学習"],
+    "level": "A2",
+    "isPremium": false
+  },
+  {
+    "id": "5",
+    "title": "Let the cat out of the bag",
+    "jpMeaning": "秘密を漏らす、ばらす",
+    "enMeaning": "Reveal a secret",
+    "nuance": "袋から猫が出てしまうことから、隠していた秘密が明かされることを意味します。",
+    "examples": [
+      {
+        "english": "Don't let the cat out of the bag about the surprise!",
+        "japanese": "サプライズのことを漏らさないでね！",
+        "tone": "casual"
+      },
+      {
+        "english": "Our new product launch is ruined - someone let the cat out of the bag.",
+        "japanese": "新製品の発表は台無しになってしまった - 誰かが秘密を漏らしてしまった。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["秘密", "暴露"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "6",
+    "title": "Spill the beans",
+    "jpMeaning": "秘密を漏らす、暴露する",
+    "nuance": "豆をこぼすことから、秘密や情報を漏らしてしまうことを意味します。",
+    "examples": [
+      {
+        "english": "Who spilled the beans about the surprise party?",
+        "japanese": "サプライズパーティーのことを誰が漏らしたの？",
+        "tone": "casual"
+      },
+      {
+        "english": "Johnson spilled the beans that we were looking at other offers, so we had to cancel the merger.",
+        "japanese": "ジョンソンが他の会社のことを漏らしてしまったから、合併はキャンセルになった。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["秘密", "暴露"],
+    "level": "A2",
+    "isPremium": false
+  },
+  {
+    "id": "7",
+    "title": "Cost an arm and a leg",
+    "jpMeaning": "非常に高価である",
+    "nuance": "腕と脚を売るほど高価という意味で、非常に高額なことを表現します。",
+    "examples": [
+      {
+        "english": "That car cost an arm and a leg!",
+        "japanese": "あの車は非常に高かったよ！",
+        "tone": "casual"
+      },
+      {
+        "english": "We could acquire the company, but it would cost an arm and a leg.",
+        "japanese": "会社を買うことはできますが、それは腕と脚を売るほど高価です。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["高価", "費用"],
+    "level": "A2",
+    "isPremium": false
+  },
+  {
+    "id": "8",
+    "title": "On cloud nine",
+    "jpMeaning": "とても幸せ、有頂天",
+    "nuance": "9番目の雲の上にいることから、非常に幸せな状態を表します。",
+    "examples": [
+      {
+        "english": "I'm on cloud nine after getting the job!",
+        "japanese": "仕事が決まってとても幸せです！",
+        "tone": "casual"
+      },
+      {
+        "english": "She was on cloud nine when she won the award.",
+        "japanese": "彼女は賞を取った時とても幸せでした。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["幸せ", "喜び"],
+    "level": "A2",
+    "isPremium": false
+  },
+  {
+    "id": "9",
+    "title": "Once in a blue moon",
+    "jpMeaning": "めったにない、非常に稀",
+    "nuance": "青い月が一度あることから、非常に稀な出来事を表します。",
+    "examples": [
+      {
+        "english": "I see him once in a blue moon.",
+        "japanese": "彼とはめったに会いません。",
+        "tone": "casual"
+      },
+      {
+        "english": "An opportunity like this comes along once in a blue moon.",
+        "japanese": "このような機会はめったにありません。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["稀", "頻度"],
+    "level": "A2",
+    "isPremium": false
+  },
+  {
+    "id": "10",
+    "title": "Hit the sack",
+    "jpMeaning": "寝る、就寝する",
+    "nuance": "袋（ベッド）に当たることから、寝ることを意味します。",
+    "examples": [
+      {
+        "english": "I'm tired, I'm going to hit the sack.",
+        "japanese": "疲れたから寝ます。",
+        "tone": "casual"
+      },
+      {
+        "english": "It's late, time to hit the sack.",
+        "japanese": "遅いので就寝の時間です。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["睡眠", "休息"],
+    "level": "A2",
+    "isPremium": false
+  },
+  {
+    "id": "11",
+    "title": "Burn the midnight oil",
+    "jpMeaning": "夜遅くまで勉強・仕事する",
+    "nuance": "真夜中の油を燃やすことから、夜遅くまで働くことを意味します。",
+    "examples": [
+      {
+        "english": "I've been burning the midnight oil for this book report.",
+        "japanese": "この本のレポートのために夜遅くまで働いています。",
+        "tone": "casual"
+      },
+      {
+        "english": "The presentation isn't finished, so we'll have to burn the midnight oil to get it done.",
+        "japanese": "プレゼンがまだ終わっていないので、仕上げるために夜遅くまで頑張らないといけません。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["努力", "勉強"],
+    "level": "A2",
+    "isPremium": false
+  },
+  {
+    "id": "12",
+    "title": "In hot water",
+    "jpMeaning": "困った状況、トラブル",
+    "nuance": "熱い水の中にいることから、困難な状況に陥ることを意味します。",
+    "examples": [
+      {
+        "english": "I'm in hot water with my boss.",
+        "japanese": "上司とトラブルになっています。",
+        "tone": "casual"
+      },
+      {
+        "english": "The company is in hot water over the scandal.",
+        "japanese": "会社はスキャンダルで困った状況にあります。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["トラブル", "困難"],
+    "level": "A2",
+    "isPremium": false
+  },
+  {
+    "id": "13",
+    "title": "Call it a day",
+    "jpMeaning": "一日の仕事を終える、切り上げる",
+    "nuance": "一日を呼ぶことから、その日の仕事を終えることを意味します。",
+    "examples": [
+      {
+        "english": "Let's call it a day for now and go home.",
+        "japanese": "今日はここで切り上げて家に帰りましょう。",
+        "tone": "casual"
+      },
+      {
+        "english": "We decided to call it a day at 5 PM, so we need to be finished by then.",
+        "japanese": "午後5時に一日の仕事を終えることにしました。それまでに終わらないといけない。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["終了", "仕事"],
+    "level": "A2",
+    "isPremium": false
+  },
+  {
+    "id": "14",
+    "title": "A slice of the pie",
+    "jpMeaning": "分け前、取り分",
+    "nuance": "パイの一切れから、利益や報酬の分け前を意味します。",
+    "examples": [
+      {
+        "english": "I want my slice of the pie from this deal.",
+        "japanese": "この取引から自分の分け前が欲しいです。",
+        "tone": "casual"
+      },
+      {
+        "english": "It's hard to make money in entertainment because everyone wants a slice of the pie.",
+        "japanese": "エンタメ業界では誰もが取り分を求めているから、儲けるのは難しい。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["利益", "報酬"],
+    "level": "A2",
+    "isPremium": false
+  },
+  {
+    "id": "15",
+    "title": "Let sleeping dogs lie",
+    "jpMeaning": "眠っている犬を起こさない、静かにしておく",
+    "nuance": "眠っている犬をそのままにしておくことから、問題を起こさないようにすることを意味します。",
+    "examples": [
+      {
+        "english": "Let's let sleeping dogs lie and not bring up the past.",
+        "japanese": "過去のことは触れずに静かにしておきましょう。",
+        "tone": "casual"
+      },
+      {
+        "english": "Sometimes it's better to let sleeping dogs lie.",
+        "japanese": "時には問題を起こさないようにする方が良いこともあります。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["静寂", "問題回避"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "16",
+    "title": "Out of the blue",
+    "jpMeaning": "突然、予期せず",
+    "nuance": "青空から突然現れることから、予期しない出来事を表します。",
+    "examples": [
+      {
+        "english": "He called me out of the blue yesterday.",
+        "japanese": "彼は昨日突然電話をくれました。",
+        "tone": "casual"
+      },
+      {
+        "english": "The news of the merger came out of the blue.",
+        "japanese": "その合併のニュースは突然でした。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["突然", "予期せぬ"],
+    "level": "A2",
+    "isPremium": false
+  },
+  {
+    "id": "17",
+    "title": "Easy as pie",
+    "jpMeaning": "とても簡単、朝飯前",
+    "nuance": "パイを作るように簡単ということから、非常に簡単なことを表します。",
+    "examples": [
+      {
+        "english": "This math problem is easy as pie!",
+        "japanese": "この数学の問題はとても簡単です！",
+        "tone": "casual"
+      },
+      {
+        "english": "The task was easy as pie to complete.",
+        "japanese": "その作業は簡単に完了できました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["簡単", "容易"],
+    "level": "A2",
+    "isPremium": false
+  },
+  {
+    "id": "18",
+    "title": "On the same page",
+    "jpMeaning": "同じ考え、同じ理解",
+    "nuance": "同じページにいることから、同じ理解や考えを持っていることを意味します。",
+    "examples": [
+      {
+        "english": "Are we on the same page about this?",
+        "japanese": "これについて同じ考えですか？",
+        "tone": "casual"
+      },
+      {
+        "english": "The team needs to be on the same page.",
+        "japanese": "チームは同じ理解を持つ必要があります。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["理解", "合意"],
+    "level": "A2",
+    "isPremium": false
+  },
+  {
+    "id": "19",
+    "title": "Cold feet",
+    "jpMeaning": "怖気づく、尻込みする",
+    "nuance": "足が冷たくなることから、怖気づいて尻込みすることを意味します。",
+    "examples": [
+      {
+        "english": "I got cold feet before the presentation.",
+        "japanese": "プレゼンテーションの前に怖気づきました。",
+        "tone": "casual"
+      },
+      {
+        "english": "Don't get cold feet now, you've prepared well.",
+        "japanese": "今更尻込みしないでください、よく準備されています。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["怖気", "尻込み"],
+    "level": "A2",
+    "isPremium": false
+  },
+  {
+    "id": "20",
+    "title": "Pull someone's leg",
+    "jpMeaning": "冗談を言う、からかう",
+    "nuance": "文字通り「足を引っ張る」ことから、人をからかったり冗談を言ったりすることを意味します。",
+    "examples": [
+      {
+        "english": "Are you pulling my leg? That can't be true!",
+        "japanese": "冗談でしょ？それはありえないよ！",
+        "tone": "casual"
+      },
+      {
+        "english": "Don't worry, I was just pulling your leg.",
+        "japanese": "心配しないで、ただ冗談を言っていただけです。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["冗談", "からかい"],
+    "level": "A2",
+    "isPremium": false
+  },
+  {
+    "id": "21",
+    "title": "Hit the nail on the head",
+    "jpMeaning": "核心を突く、正鵠を射る",
+    "nuance": "釘の頭を正確に打つことから、問題の核心を正確に捉えることを意味します。",
+    "examples": [
+      {
+        "english": "You hit the nail on the head with that analysis.",
+        "japanese": "その分析は核心を突いていますね。",
+        "tone": "formal"
+      },
+      {
+        "english": "That's exactly right! You hit the nail on the head!",
+        "japanese": "まさにその通り！正鵠を射てるよ！",
+        "tone": "casual"
+      }
+    ],
+    "tags": ["正確", "分析"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "22",
+    "title": "Bite the bullet",
+    "jpMeaning": "覚悟を決める、困難を受け入れる",
+    "nuance": "戦時中に手術の際に銃弾を噛んで痛みに耐えたことから、困難な状況を受け入れることを意味します。",
+    "examples": [
+      {
+        "english": "I had to bite the bullet and tell him the truth.",
+        "japanese": "覚悟を決めて彼に真実を話さなければならなかった。",
+        "tone": "casual"
+      },
+      {
+        "english": "We need to bite the bullet and make the necessary changes.",
+        "japanese": "覚悟を決めて必要な変更を行わなければなりません。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["覚悟", "困難"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "23",
+    "title": "Kick the bucket",
+    "jpMeaning": "死ぬ、亡くなる",
+    "nuance": "バケツを蹴ることから、死ぬことを意味します。",
+    "examples": [
+      {
+        "english": "He kicked the bucket last year.",
+        "japanese": "彼は去年亡くなりました。",
+        "tone": "casual"
+      },
+      {
+        "english": "The old man kicked the bucket peacefully.",
+        "japanese": "老人は安らかに亡くなりました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["死亡", "終了"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "24",
+    "title": "Bend over backwards",
+    "jpMeaning": "最大限努力する、尽力する",
+    "nuance": "後ろに反り返ることから、非常に努力することを意味します。",
+    "examples": [
+      {
+        "english": "I bent over backwards to help him.",
+        "japanese": "彼を助けるために最大限努力しました。",
+        "tone": "casual"
+      },
+      {
+        "english": "The company bent over backwards to satisfy the customer.",
+        "japanese": "会社は顧客を満足させるために尽力しました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["努力", "尽力"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "25",
+    "title": "Break the ice",
+    "jpMeaning": "緊張をほぐす、場を和ませる",
+    "nuance": "氷を割ることから、緊張した状況を和らげることを意味します。",
+    "examples": [
+      {
+        "english": "Let's play a game to break the ice.",
+        "japanese": "緊張をほぐすためにゲームをしましょう。",
+        "tone": "casual"
+      },
+      {
+        "english": "The speaker told a joke to break the ice.",
+        "japanese": "スピーカーは場を和ませるために冗談を言いました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["緊張", "和み"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "26",
+    "title": "Butterflies in your stomach",
+    "jpMeaning": "緊張する、胸がドキドキする",
+    "nuance": "お腹に蝶がいることから、緊張や不安を感じることを意味します。",
+    "examples": [
+      {
+        "english": "I have butterflies in my stomach before the speech.",
+        "japanese": "スピーチの前に緊張しています。",
+        "tone": "casual"
+      },
+      {
+        "english": "She had butterflies in her stomach before the interview.",
+        "japanese": "彼女は面接の前に胸がドキドキしていました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["緊張", "不安"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "27",
+    "title": "By the book",
+    "jpMeaning": "規則通りに、正式に",
+    "nuance": "本通りに従うことから、規則や手順に従うことを意味します。",
+    "examples": [
+      {
+        "english": "We need to do this by the book.",
+        "japanese": "これを正式にやる必要があります。",
+        "tone": "casual"
+      },
+      {
+        "english": "The procedure was followed by the book.",
+        "japanese": "手順は規則通りに従われました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["規則", "正式"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "28",
+    "title": "Cut corners",
+    "jpMeaning": "手抜きをする、コストを削減する",
+    "nuance": "角を切ることから、品質を落として時間やコストを節約することを意味します。",
+    "examples": [
+      {
+        "english": "Don't cut corners on safety measures.",
+        "japanese": "安全対策で手抜きをしてはいけません。",
+        "tone": "casual"
+      },
+      {
+        "english": "The company cut corners to meet the deadline.",
+        "japanese": "会社は締め切りに間に合わせるために手抜きをしました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["手抜き", "品質"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "29",
+    "title": "Devil's advocate",
+    "jpMeaning": "反対意見を言う人、悪魔の代弁者",
+    "nuance": "悪魔の代弁者として反対の立場を取ることから、反対意見を述べることを意味します。",
+    "examples": [
+      {
+        "english": "Let me play devil's advocate here.",
+        "japanese": "ここで反対意見を言わせてください。",
+        "tone": "casual"
+      },
+      {
+        "english": "He always plays devil's advocate in meetings.",
+        "japanese": "彼は会議でいつも反対意見を言います。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["反対", "議論"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "30",
+    "title": "Face the music",
+    "jpMeaning": "結果を受け入れる、責任を取る",
+    "nuance": "音楽に直面することから、結果や責任を受け入れることを意味します。",
+    "examples": [
+      {
+        "english": "You need to face the music for your mistakes.",
+        "japanese": "あなたの過ちの結果を受け入れる必要があります。",
+        "tone": "casual"
+      },
+      {
+        "english": "The CEO had to face the music for the company's failure.",
+        "japanese": "CEOは会社の失敗の責任を取らなければなりませんでした。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["責任", "結果"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "31",
+    "title": "Go the extra mile",
+    "jpMeaning": "さらに努力する、一歩踏み込む",
+    "nuance": "さらに一マイル進むことから、期待以上の努力をすることを意味します。",
+    "examples": [
+      {
+        "english": "She always goes the extra mile for her customers.",
+        "japanese": "彼女はいつも顧客のためにさらに努力します。",
+        "tone": "casual"
+      },
+      {
+        "english": "The team went the extra mile to meet the deadline.",
+        "japanese": "チームは締め切りに間に合わせるためにさらに努力しました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["努力", "サービス"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "32",
+    "title": "Jump the gun",
+    "jpMeaning": "早計に行動する、時期尚早",
+    "nuance": "銃を早く撃つことから、時期尚早に行動することを意味します。",
+    "examples": [
+      {
+        "english": "Don't jump the gun, wait for the official announcement.",
+        "japanese": "早計に行動しないで、正式な発表を待ちましょう。",
+        "tone": "casual"
+      },
+      {
+        "english": "The company jumped the gun with the product launch.",
+        "japanese": "会社は製品発売を時期尚早に行いました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["早計", "時期"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "33",
+    "title": "Let someone off the hook",
+    "jpMeaning": "責任を免除する、許す",
+    "nuance": "釣り針から外すことから、責任や義務を免除することを意味します。",
+    "examples": [
+      {
+        "english": "I'll let you off the hook this time.",
+        "japanese": "今回は許してあげます。",
+        "tone": "casual"
+      },
+      {
+        "english": "The judge let him off the hook with a warning.",
+        "japanese": "裁判官は警告で彼の責任を免除しました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["免除", "許し"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "34",
+    "title": "Miss the boat",
+    "jpMeaning": "機会を逃す、乗り遅れる",
+    "nuance": "ボートを逃すことから、機会を逃すことを意味します。",
+    "examples": [
+              {
+          "english": "You missed the boat on that investment.",
+          "japanese": "その投資の機会を逃しましたね。",
+          "tone": "casual"
+        },
+      {
+        "english": "The company missed the boat on the new technology.",
+        "japanese": "会社は新技術の機会を逃しました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["機会", "逃す"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "35",
+    "title": "Not my cup of tea",
+    "jpMeaning": "好みではない、興味がない",
+    "nuance": "私の紅茶ではないことから、好みや興味に合わないことを意味します。",
+    "examples": [
+      {
+        "english": "Horror movies are not my cup of tea.",
+        "japanese": "ホラー映画は好みではありません。",
+        "tone": "casual"
+      },
+      {
+        "english": "That type of work is not my cup of tea.",
+        "japanese": "その種類の仕事は興味がありません。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["好み", "興味"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "36",
+    "title": "Pull yourself together",
+    "jpMeaning": "気を落ち着かせる、冷静になる",
+    "nuance": "自分をまとめることから、気を落ち着かせることを意味します。",
+    "examples": [
+      {
+        "english": "Pull yourself together and focus on the task.",
+        "japanese": "気を落ち着かせて作業に集中しなさい。",
+        "tone": "casual"
+      },
+      {
+        "english": "She needed to pull herself together after the bad news.",
+        "japanese": "彼女は悪いニュースの後に気を落ち着かせる必要がありました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["冷静", "集中"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "37",
+    "title": "Speak of the devil",
+    "jpMeaning": "噂をすれば影、言及した人が現れる",
+    "nuance": "悪魔のことを話すことから、話していた人が現れることを意味します。",
+    "examples": [
+      {
+        "english": "Speak of the devil, here he comes!",
+        "japanese": "噂をすれば影、彼が来ました！",
+        "tone": "casual"
+      },
+      {
+        "english": "Speak of the devil, the CEO just walked in.",
+        "japanese": "噂をすれば影、CEOがちょうど入ってきました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["噂", "偶然"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "38",
+    "title": "Take a rain check",
+    "jpMeaning": "延期する、後でにする",
+    "nuance": "雨のチェックを取ることから、延期することを意味します。",
+    "examples": [
+      {
+        "english": "I'll take a rain check on dinner tonight.",
+        "japanese": "今夜のディナーは延期させてください。",
+        "tone": "casual"
+      },
+      {
+        "english": "Let's take a rain check on the meeting.",
+        "japanese": "会議は延期しましょう。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["延期", "後回し"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "39",
+    "title": "The ball is in your court",
+    "jpMeaning": "あなたの番、あなたが決める",
+    "nuance": "ボールがあなたのコートにあることから、あなたの番であることを意味します。",
+    "examples": [
+      {
+        "english": "The ball is in your court now.",
+        "japanese": "今度はあなたの番です。",
+        "tone": "casual"
+      },
+      {
+        "english": "The ball is in your court to make the decision.",
+        "japanese": "決定するのはあなたの番です。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["番", "決定"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "40",
+    "title": "Throw in the towel",
+    "jpMeaning": "諦める、降参する",
+    "nuance": "ボクシングでタオルを投げ入れることから、諦めることを意味します。",
+    "examples": [
+      {
+        "english": "I'm ready to throw in the towel on this relationship.",
+        "japanese": "この関係を諦める準備ができています。",
+        "tone": "casual"
+      },
+      {
+        "english": "The company threw in the towel after years of losses.",
+        "japanese": "会社は何年もの損失の後に諦めました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["諦め", "降参"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "41",
+    "title": "Burning the candle at both ends",
+    "jpMeaning": "過労で働く、両端からロウソクを燃やす",
+    "nuance": "ロウソクの両端を燃やすことから、過度に働いて疲労することを意味します。",
+    "examples": [
+      {
+        "english": "You're burning the candle at both ends with work and school.",
+        "japanese": "仕事と学校で過労になっていますね。",
+        "tone": "casual"
+      },
+      {
+        "english": "She's been burning the candle at both ends for months.",
+        "japanese": "彼女は何ヶ月も過度に働いています。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["過労", "疲労"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "42",
+    "title": "Put all your eggs in one basket",
+    "jpMeaning": "一つのことに全てを賭ける、リスクを集中させる",
+    "nuance": "全ての卵を一つの籠に入れることから、一つの選択肢に全てを賭けることを意味します。",
+    "examples": [
+      {
+        "english": "Don't put all your eggs in one basket with that investment.",
+        "japanese": "その投資に全てを賭けないでください。",
+        "tone": "casual"
+      },
+      {
+        "english": "The company put all its eggs in one basket with the new product.",
+        "japanese": "会社は新製品に全てを賭けました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["リスク", "集中"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "43",
+    "title": "Jump on the bandwagon",
+    "jpMeaning": "流行に乗る、時流に乗る",
+    "nuance": "楽隊車に飛び乗ることから、流行や時流に乗ることを意味します。",
+    "examples": [
+      {
+        "english": "Everyone is jumping on the bandwagon with this new trend.",
+        "japanese": "皆がこの新しい流行に乗っています。",
+        "tone": "casual"
+      },
+      {
+        "english": "Many companies jumped on the bandwagon of digital transformation.",
+        "japanese": "多くの会社がデジタル変革の時流に乗りました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["流行", "時流"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "44",
+    "title": "Caught between a rock and a hard place",
+    "jpMeaning": "板挟み、窮地に陥る",
+    "nuance": "岩と硬い場所の間に挟まれることから、困難な選択を迫られることを意味します。",
+    "examples": [
+      {
+        "english": "I'm caught between a rock and a hard place with this decision.",
+        "japanese": "この決定で板挟みになっています。",
+        "tone": "casual"
+      },
+      {
+        "english": "The company was caught between a rock and a hard place.",
+        "japanese": "会社は窮地に陥りました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["窮地", "選択"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "45",
+    "title": "Kick the habit",
+    "jpMeaning": "悪い習慣をやめる、癖を直す",
+    "nuance": "習慣を蹴ることから、悪い習慣をやめることを意味します。",
+    "examples": [
+      {
+        "english": "I need to kick the habit of smoking.",
+        "japanese": "タバコをやめる必要があります。",
+        "tone": "casual"
+      },
+      {
+        "english": "She successfully kicked the habit of procrastination.",
+        "japanese": "彼女は先延ばしの癖を成功裏に直しました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["習慣", "改善"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "46",
+    "title": "Bite off more than you can chew",
+    "jpMeaning": "手に負えないことを引き受ける、大風呂敷を広げる",
+    "nuance": "噛める以上を噛むことから、能力以上のことを引き受けることを意味します。",
+    "examples": [
+      {
+        "english": "You bit off more than you can chew with this project.",
+        "japanese": "このプロジェクトで手に負えないことを引き受けましたね。",
+        "tone": "casual"
+      },
+      {
+        "english": "The company bit off more than it could chew with the expansion.",
+        "japanese": "会社は拡張で能力以上のことを引き受けました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["能力", "過大"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "47",
+    "title": "The elephant in the room",
+    "jpMeaning": "誰もが知っているが言及しない問題、明白な問題",
+    "nuance": "部屋にいる象のことから、誰もが知っているが話題にしない問題を意味します。",
+    "examples": [
+      {
+        "english": "The elephant in the room is the budget issue.",
+        "japanese": "明白な問題は予算の問題です。",
+        "tone": "casual"
+      },
+      {
+        "english": "Let's address the elephant in the room.",
+        "japanese": "誰もが知っている問題に取り組みましょう。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["問題", "明白"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "48",
+    "title": "A blessing in disguise",
+    "jpMeaning": "不幸中の幸い、見た目は悪いが実は良いこと",
+    "nuance": "偽装された祝福から、一見悪いことが実は良い結果をもたらすことを意味します。",
+    "examples": [
+      {
+        "english": "Losing that job was a blessing in disguise.",
+        "japanese": "その仕事を失ったのは不幸中の幸いでした。",
+        "tone": "casual"
+      },
+      {
+        "english": "The failure turned out to be a blessing in disguise.",
+        "japanese": "その失敗は実は良い結果をもたらしました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["幸運", "転機"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "49",
+    "title": "Hit the ground running",
+    "jpMeaning": "すぐに活動を開始する、即座に成果を上げる",
+    "nuance": "地面に着地してすぐに走り出すことから、即座に活動を開始することを意味します。",
+    "examples": [
+      {
+        "english": "The new employee hit the ground running.",
+        "japanese": "新しい従業員はすぐに成果を上げました。",
+        "tone": "casual"
+      },
+      {
+        "english": "The team hit the ground running with the new project.",
+        "japanese": "チームは新プロジェクトで即座に活動を開始しました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["開始", "成果"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "50",
+    "title": "Rain on someone's parade",
+    "jpMeaning": "人の楽しみを台無しにする、水を差す",
+    "nuance": "パレードに雨を降らせることから、人の楽しみを台無しにすることを意味します。",
+    "examples": [
+      {
+        "english": "Don't rain on my parade with bad news.",
+        "japanese": "悪いニュースで私の楽しみを台無しにしないでください。",
+        "tone": "casual"
+      },
+      {
+        "english": "He always rains on everyone's parade.",
+        "japanese": "彼はいつも皆の楽しみに水を差します。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["台無し", "水差し"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "51",
+    "title": "Cut to the chase",
+    "jpMeaning": "要点に入る、本題に入る",
+    "nuance": "追跡に切り替えることから、要点や本題に入ることを意味します。",
+    "examples": [
+      {
+        "english": "Let's cut to the chase and discuss the main issue.",
+        "japanese": "要点に入って主要な問題を議論しましょう。",
+        "tone": "casual"
+      },
+      {
+        "english": "The meeting cut to the chase after the introductions.",
+        "japanese": "会議は紹介の後に本題に入りました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["要点", "本題"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "52",
+    "title": "In the same boat",
+    "jpMeaning": "同じ状況、同じ立場",
+    "nuance": "同じボートにいることから、同じ状況や立場にあることを意味します。",
+    "examples": [
+      {
+        "english": "We're all in the same boat with this problem.",
+        "japanese": "この問題で皆同じ状況です。",
+        "tone": "casual"
+      },
+      {
+        "english": "The employees are in the same boat regarding the changes.",
+        "japanese": "従業員は変更に関して同じ立場です。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["状況", "立場"],
+    "level": "B2",
+    "isPremium": false
+  },
+  {
+    "id": "53",
+    "title": "Read between the lines",
+    "jpMeaning": "行間を読む、真意を理解する",
+    "nuance": "行と行の間を読むことから、表面の言葉の裏にある真意を理解することを意味します。",
+    "examples": [
+      {
+        "english": "You need to read between the lines to understand the message.",
+        "japanese": "メッセージを理解するには行間を読む必要があります。",
+        "tone": "casual"
+      },
+      {
+        "english": "The analyst read between the lines of the report.",
+        "japanese": "アナリストは報告書の行間を読みました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["理解", "真意"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "54",
+    "title": "Throw someone under the bus",
+    "jpMeaning": "人を犠牲にする、責任を転嫁する",
+    "nuance": "人をバスの下に投げることから、人を犠牲にして責任を転嫁することを意味します。",
+    "examples": [
+      {
+        "english": "Don't throw me under the bus for your mistake.",
+        "japanese": "あなたの過ちで私を犠牲にしないでください。",
+        "tone": "casual"
+      },
+      {
+        "english": "The manager threw his team under the bus.",
+        "japanese": "マネージャーはチームを犠牲にしました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["犠牲", "責任転嫁"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "55",
+    "title": "Put your money where your mouth is",
+    "jpMeaning": "言葉を行動で示す、実行する",
+    "nuance": "口の場所にお金を置くことから、言葉を行動で示すことを意味します。",
+    "examples": [
+      {
+        "english": "Put your money where your mouth is and prove it.",
+        "japanese": "言葉を行動で示して証明してください。",
+        "tone": "casual"
+      },
+      {
+        "english": "The company put its money where its mouth is.",
+        "japanese": "会社は言葉を実行に移しました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["実行", "証明"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "56",
+    "title": "Play it by ear",
+    "jpMeaning": "状況に応じて判断する、臨機応変に対応する",
+    "nuance": "耳で演奏することから、状況に応じて判断することを意味します。",
+    "examples": [
+      {
+        "english": "Let's play it by ear and see what happens.",
+        "japanese": "状況に応じて判断して何が起こるか見ましょう。",
+        "tone": "casual"
+      },
+      {
+        "english": "The team played it by ear during the crisis.",
+        "japanese": "チームは危機の間臨機応変に対応しました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["判断", "臨機応変"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "57",
+    "title": "Think outside the box",
+    "jpMeaning": "既成概念にとらわれない発想をする、創造的に考える",
+    "nuance": "箱の外で考えることから、既成概念にとらわれない発想をすることを意味します。",
+    "examples": [
+      {
+        "english": "We need to think outside the box for this problem.",
+        "japanese": "この問題には既成概念にとらわれない発想が必要です。",
+        "tone": "casual"
+      },
+      {
+        "english": "The team thought outside the box for the solution.",
+        "japanese": "チームは解決策を創造的に考えました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["創造", "発想"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "58",
+    "title": "Actions speak louder than words",
+    "jpMeaning": "行動は言葉より雄弁、実行が重要",
+    "nuance": "行動は言葉より大きな声で話すことから、実行が重要であることを意味します。",
+    "examples": [
+      {
+        "english": "Actions speak louder than words in this situation.",
+        "japanese": "この状況では行動が言葉より重要です。",
+        "tone": "casual"
+      },
+      {
+        "english": "The company proved that actions speak louder than words.",
+        "japanese": "会社は実行が重要であることを証明しました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["実行", "行動"],
+    "level": "B2",
+    "isPremium": false
+  },
+  {
+    "id": "59",
+    "title": "In over your head",
+    "jpMeaning": "手に負えない、能力を超えている",
+    "nuance": "頭の上にいることから、手に負えない状況であることを意味します。",
+    "examples": [
+      {
+        "english": "I'm in over my head with this project.",
+        "japanese": "このプロジェクトは手に負えません。",
+        "tone": "casual"
+      },
+      {
+        "english": "The manager was in over his head with the responsibility.",
+        "japanese": "マネージャーは責任が能力を超えていました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["能力", "困難"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "60",
+    "title": "Back to the drawing board",
+    "jpMeaning": "最初からやり直す、設計図に戻る",
+    "nuance": "設計図に戻ることから、最初からやり直すことを意味します。",
+    "examples": [
+      {
+        "english": "The plan failed, so it's back to the drawing board.",
+        "japanese": "計画が失敗したので、最初からやり直しです。",
+        "tone": "casual"
+      },
+      {
+        "english": "The team went back to the drawing board after the setback.",
+        "japanese": "チームは挫折の後、設計図に戻りました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["やり直し", "再設計"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "61",
+    "title": "The pot calling the kettle black",
+    "jpMeaning": "五十歩百歩、他人の欠点を非難する人",
+    "nuance": "鍋がやかんを黒いと言うことから、自分も同じ欠点があるのに他人を非難することを意味します。",
+    "examples": [
+      {
+        "english": "You're criticizing me for being late? That's the pot calling the kettle black!",
+        "japanese": "私が遅刻したことを批判するの？それは五十歩百歩だよ！",
+        "tone": "casual"
+      },
+      {
+        "english": "The manager's criticism was the pot calling the kettle black.",
+        "japanese": "マネージャーの批判は五十歩百歩でした。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["批判", "矛盾"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "62",
+    "title": "Barking up the wrong tree",
+    "jpMeaning": "間違った方向で努力する、見当違い",
+    "nuance": "間違った木に向かって吠えることから、間違った方向で努力することを意味します。",
+    "examples": [
+      {
+        "english": "You're barking up the wrong tree if you think I can help.",
+        "japanese": "私が助けられると思っているなら見当違いです。",
+        "tone": "casual"
+      },
+      {
+        "english": "The investigation was barking up the wrong tree.",
+        "japanese": "その調査は間違った方向で努力していました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["方向", "努力"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "63",
+    "title": "Add fuel to the fire",
+    "jpMeaning": "火に油を注ぐ、状況を悪化させる",
+    "nuance": "火に燃料を加えることから、既に悪い状況をさらに悪化させることを意味します。",
+    "examples": [
+      {
+        "english": "Don't add fuel to the fire by arguing more.",
+        "japanese": "さらに議論して火に油を注がないでください。",
+        "tone": "casual"
+      },
+      {
+        "english": "His comments added fuel to the fire.",
+        "japanese": "彼のコメントが状況を悪化させました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["悪化", "状況"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "64",
+    "title": "Behind the eight ball",
+    "jpMeaning": "不利な立場、窮地",
+    "nuance": "ビリヤードで8番ボールの後ろにいることから、不利な立場であることを意味します。",
+    "examples": [
+      {
+        "english": "We're behind the eight ball with this deadline.",
+        "japanese": "この締め切りで不利な立場です。",
+        "tone": "casual"
+      },
+      {
+        "english": "The company was behind the eight ball financially.",
+        "japanese": "会社は財政的に窮地にありました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["不利", "窮地"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "65",
+    "title": "Call someone's bluff",
+    "jpMeaning": "はったりを見破る、虚勢を突く",
+    "nuance": "ポーカーで相手のブラフを見破ることから、虚勢を見破ることを意味します。",
+    "examples": [
+      {
+        "english": "I called his bluff and he backed down.",
+        "japanese": "彼のはったりを見破ったら、彼は引っ込めました。",
+        "tone": "casual"
+      },
+      {
+        "english": "The negotiator called the other party's bluff.",
+        "japanese": "交渉者は相手の虚勢を突きました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["見破り", "虚勢"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "66",
+    "title": "Cross that bridge when you come to it",
+    "jpMeaning": "その時が来てから対処する、先の心配は後で",
+    "nuance": "その橋に来た時に渡ることから、問題が起きてから対処することを意味します。",
+    "examples": [
+      {
+        "english": "Let's cross that bridge when we come to it.",
+        "japanese": "その時が来てから対処しましょう。",
+        "tone": "casual"
+      },
+      {
+        "english": "We'll cross that bridge when we come to it.",
+        "japanese": "その時が来てから対処します。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["対処", "先送り"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "67",
+    "title": "Fly off the handle",
+    "jpMeaning": "激怒する、かんしゃくを起こす",
+    "nuance": "取っ手が飛んでいくことから、激怒することを意味します。",
+    "examples": [
+      {
+        "english": "He flew off the handle when he heard the news.",
+        "japanese": "彼はそのニュースを聞いて激怒しました。",
+        "tone": "casual"
+      },
+      {
+        "english": "The manager flew off the handle during the meeting.",
+        "japanese": "マネージャーは会議中にかんしゃくを起こしました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["激怒", "感情"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "68",
+    "title": "Go out on a limb",
+    "jpMeaning": "危険を冒す、リスクを取る",
+    "nuance": "木の枝の先端に出ることから、危険を冒すことを意味します。",
+    "examples": [
+      {
+        "english": "I'm going out on a limb to support this idea.",
+        "japanese": "このアイデアを支持するために危険を冒します。",
+        "tone": "casual"
+      },
+      {
+        "english": "The company went out on a limb with the investment.",
+        "japanese": "会社はその投資でリスクを取りました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["危険", "リスク"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "69",
+    "title": "Keep your nose to the grindstone",
+    "jpMeaning": "一生懸命働く、地道に努力する",
+    "nuance": "鼻を砥石に近づけることから、一生懸命働くことを意味します。",
+    "examples": [
+      {
+        "english": "Keep your nose to the grindstone and you'll succeed.",
+        "japanese": "一生懸命働けば成功します。",
+        "tone": "casual"
+      },
+      {
+        "english": "He kept his nose to the grindstone for years.",
+        "japanese": "彼は何年も地道に努力しました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["努力", "仕事"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "70",
+    "title": "Know the ropes",
+    "jpMeaning": "やり方を知っている、経験豊富",
+    "nuance": "ロープの使い方を知っていることから、やり方を知っていることを意味します。",
+    "examples": [
+      {
+        "english": "She knows the ropes around here.",
+        "japanese": "彼女はここでのやり方を知っています。",
+        "tone": "casual"
+      },
+      {
+        "english": "The new employee needs to learn the ropes.",
+        "japanese": "新しい従業員はやり方を学ぶ必要があります。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["経験", "知識"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "71",
+    "title": "Lick your wounds",
+    "jpMeaning": "傷を癒す、回復する",
+    "nuance": "傷を舐めることから、失敗や挫折から回復することを意味します。",
+    "examples": [
+      {
+        "english": "I need some time to lick my wounds.",
+        "japanese": "傷を癒すために少し時間が必要です。",
+        "tone": "casual"
+      },
+      {
+        "english": "The team licked its wounds after the defeat.",
+        "japanese": "チームは敗北の後に回復しました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["回復", "癒し"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "72",
+    "title": "Make a mountain out of a molehill",
+    "jpMeaning": "大げさにする、小さなことを大きくする",
+    "nuance": "モグラの塚を山にすることから、小さなことを大げさにすることを意味します。",
+    "examples": [
+      {
+        "english": "Don't make a mountain out of a molehill.",
+        "japanese": "小さなことを大げさにしないでください。",
+        "tone": "casual"
+      },
+      {
+        "english": "She always makes a mountain out of a molehill.",
+        "japanese": "彼女はいつも小さなことを大げさにします。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["大げさ", "誇張"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "73",
+    "title": "Off the beaten path",
+    "jpMeaning": "一般的でない、珍しい",
+    "nuance": "踏み固められた道から外れることから、一般的でないことを意味します。",
+    "examples": [
+      {
+        "english": "This restaurant is off the beaten path.",
+        "japanese": "このレストランは一般的ではありません。",
+        "tone": "casual"
+      },
+      {
+        "english": "The company took an off the beaten path approach.",
+        "japanese": "会社は珍しいアプローチを取りました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["珍しい", "独特"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "74",
+    "title": "Put a sock in it",
+    "jpMeaning": "黙る、静かにする",
+    "nuance": "靴下を口に入れることから、黙ることを意味します。",
+    "examples": [
+      {
+        "english": "Put a sock in it and listen for once.",
+        "japanese": "黙って一度聞きなさい。",
+        "tone": "casual"
+      },
+      {
+        "english": "The teacher told the students to put a sock in it.",
+        "japanese": "先生は生徒に静かにするように言いました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["沈黙", "静寂"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "75",
+    "title": "Raise a red flag",
+    "jpMeaning": "警告を発する、危険信号を上げる",
+    "nuance": "赤い旗を上げることから、警告を発することを意味します。",
+    "examples": [
+      {
+        "english": "This behavior raises a red flag for me.",
+        "japanese": "この行動は私にとって警告です。",
+        "tone": "casual"
+      },
+      {
+        "english": "The report raised several red flags.",
+        "japanese": "その報告書はいくつかの危険信号を上げました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["警告", "危険"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "76",
+    "title": "Shoot yourself in the foot",
+    "jpMeaning": "自分で自分の首を絞める、自滅する",
+    "nuance": "自分の足を撃つことから、自分で自分を不利にすることを意味します。",
+    "examples": [
+      {
+        "english": "You're shooting yourself in the foot with that attitude.",
+        "japanese": "その態度で自分で自分の首を絞めています。",
+        "tone": "casual"
+      },
+      {
+        "english": "The company shot itself in the foot with the decision.",
+        "japanese": "会社はその決定で自滅しました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["自滅", "不利"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "77",
+    "title": "Steal someone's thunder",
+    "jpMeaning": "人の注目を奪う、手柄を横取りする",
+    "nuance": "人の雷を盗むことから、人の注目や手柄を奪うことを意味します。",
+    "examples": [
+      {
+        "english": "Don't steal my thunder by announcing it first.",
+        "japanese": "先に発表して私の注目を奪わないでください。",
+        "tone": "casual"
+      },
+      {
+        "english": "The competitor stole our thunder with the product launch.",
+        "japanese": "競合他社は製品発売で私たちの注目を奪いました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["注目", "手柄"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "78",
+    "title": "Take the bull by the horns",
+    "jpMeaning": "困難に正面から立ち向かう、積極的に取り組む",
+    "nuance": "雄牛の角を掴むことから、困難に正面から立ち向かうことを意味します。",
+    "examples": [
+      {
+        "english": "It's time to take the bull by the horns.",
+        "japanese": "困難に正面から立ち向かう時です。",
+        "tone": "casual"
+      },
+      {
+        "english": "The manager took the bull by the horns.",
+        "japanese": "マネージャーは積極的に取り組みました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["積極", "困難"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "79",
+    "title": "The whole nine yards",
+    "jpMeaning": "全て、完全に",
+    "nuance": "9ヤード全てのことから、全てを意味します。",
+    "examples": [
+      {
+        "english": "I went the whole nine yards for the party.",
+        "japanese": "パーティーのために全てをやりました。",
+        "tone": "casual"
+      },
+      {
+        "english": "The company went the whole nine yards for the project.",
+        "japanese": "会社はプロジェクトのために完全に取り組みました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["完全", "全て"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "80",
+    "title": "Toe the line",
+    "jpMeaning": "規則に従う、従順にする",
+    "nuance": "線の上に足の指を置くことから、規則に従うことを意味します。",
+    "examples": [
+      {
+        "english": "You need to toe the line around here.",
+        "japanese": "ここでは規則に従う必要があります。",
+        "tone": "casual"
+      },
+      {
+        "english": "The employees must toe the line.",
+        "japanese": "従業員は規則に従わなければなりません。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["規則", "従順"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "81",
+    "title": "Wearing your heart on your sleeve",
+    "jpMeaning": "感情を隠さない、率直である",
+    "nuance": "心臓を袖に着けることから、感情を隠さずに率直であることを意味します。",
+    "examples": [
+      {
+        "english": "She always wears her heart on her sleeve.",
+        "japanese": "彼女はいつも感情を隠しません。",
+        "tone": "casual"
+      },
+      {
+        "english": "The leader wore his heart on his sleeve during the speech.",
+        "japanese": "リーダーはスピーチ中に率直でした。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["感情", "率直"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "82",
+    "title": "Under someone's thumb",
+    "jpMeaning": "支配下にある、コントロールされている",
+    "nuance": "誰かの親指の下にいることから、支配下にあることを意味します。",
+    "examples": [
+      {
+        "english": "He's under his wife's thumb.",
+        "japanese": "彼は妻の支配下にあります。",
+        "tone": "casual"
+      },
+      {
+        "english": "The company was under the CEO's thumb.",
+        "japanese": "会社はCEOの支配下にありました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["支配", "コントロール"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "83",
+    "title": "Like a fish out of water",
+    "jpMeaning": "居心地が悪い、場違い",
+    "nuance": "水から出た魚のように、居心地が悪いことを意味します。",
+    "examples": [
+      {
+        "english": "I felt like a fish out of water at the party.",
+        "japanese": "パーティーで居心地が悪く感じました。",
+        "tone": "casual"
+      },
+      {
+        "english": "The new employee felt like a fish out of water.",
+        "japanese": "新しい従業員は場違いに感じました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["居心地", "場違い"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "84",
+    "title": "Throw the baby out with the bathwater",
+    "jpMeaning": "良いものも一緒に捨てる、過度に排除する",
+    "nuance": "赤ちゃんを風呂水と一緒に捨てることから、良いものも一緒に捨てることを意味します。",
+    "examples": [
+      {
+        "english": "Don't throw the baby out with the bathwater.",
+        "japanese": "良いものも一緒に捨てないでください。",
+        "tone": "casual"
+      },
+      {
+        "english": "The reform threw the baby out with the bathwater.",
+        "japanese": "その改革は過度に排除しました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["排除", "過度"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "85",
+    "title": "Keep something at bay",
+    "jpMeaning": "何かを遠ざける、抑える",
+    "nuance": "何かを湾に留めることから、何かを遠ざけることを意味します。",
+    "examples": [
+      {
+        "english": "I'm trying to keep stress at bay.",
+        "japanese": "ストレスを遠ざけようとしています。",
+        "tone": "casual"
+      },
+      {
+        "english": "The company kept competition at bay.",
+        "japanese": "会社は競争を抑えました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["遠ざけ", "抑制"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "86",
+    "title": "Roll with the punches",
+    "jpMeaning": "困難に適応する、柔軟に対応する",
+    "nuance": "パンチと一緒に転がることから、困難に適応することを意味します。",
+    "examples": [
+      {
+        "english": "You need to roll with the punches in this job.",
+        "japanese": "この仕事では困難に適応する必要があります。",
+        "tone": "casual"
+      },
+      {
+        "english": "The team rolled with the punches during the crisis.",
+        "japanese": "チームは危機の間柔軟に対応しました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["適応", "柔軟"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "87",
+    "title": "A snowball's chance in hell",
+    "jpMeaning": "可能性が全くない、絶望的",
+    "nuance": "地獄で雪玉のチャンスがあることから、可能性が全くないことを意味します。",
+    "examples": [
+      {
+        "english": "You have a snowball's chance in hell of winning.",
+        "japanese": "勝つ可能性は全くありません。",
+        "tone": "casual"
+      },
+      {
+        "english": "The project had a snowball's chance in hell of success.",
+        "japanese": "そのプロジェクトは成功の可能性が絶望的でした。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["不可能", "絶望"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "88",
+    "title": "A dime a dozen",
+    "jpMeaning": "ありふれている、珍しくない",
+    "nuance": "10セントで12個ということから、ありふれていることを意味します。",
+    "examples": [
+      {
+        "english": "Those jobs are a dime a dozen.",
+        "japanese": "それらの仕事はありふれています。",
+        "tone": "casual"
+      },
+      {
+        "english": "Good ideas are a dime a dozen in this industry.",
+        "japanese": "この業界では良いアイデアは珍しくありません。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["ありふれ", "普通"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "89",
+    "title": "Go down in flames",
+    "jpMeaning": "大失敗する、惨敗する",
+    "nuance": "炎の中で落ちることから、大失敗することを意味します。",
+    "examples": [
+      {
+        "english": "The project went down in flames.",
+        "japanese": "そのプロジェクトは大失敗しました。",
+        "tone": "casual"
+      },
+      {
+        "english": "The company went down in flames after the scandal.",
+        "japanese": "会社はスキャンダルの後に惨敗しました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["失敗", "惨敗"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "90",
+    "title": "Jump through hoops",
+    "jpMeaning": "困難な手続きを経る、苦労する",
+    "nuance": "フープを飛び抜けることから、困難な手続きを経ることを意味します。",
+    "examples": [
+      {
+        "english": "I had to jump through hoops to get this job.",
+        "japanese": "この仕事を得るために困難な手続きを経ました。",
+        "tone": "casual"
+      },
+      {
+        "english": "The company jumped through hoops to meet regulations.",
+        "japanese": "会社は規制を満たすために苦労しました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["困難", "手続き"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "91",
+    "title": "Stick to your guns",
+    "jpMeaning": "自分の立場を貫く、信念を曲げない",
+    "nuance": "銃に固執することから、自分の立場を貫くことを意味します。",
+    "examples": [
+      {
+        "english": "Stick to your guns and don't give in.",
+        "japanese": "自分の立場を貫いて屈しないでください。",
+        "tone": "casual"
+      },
+      {
+        "english": "The negotiator stuck to his guns.",
+        "japanese": "交渉者は信念を曲げませんでした。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["信念", "貫く"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "92",
+    "title": "Take it with a grain of salt",
+    "jpMeaning": "話半分に聞く、疑って聞く",
+    "nuance": "塩の粒と一緒に取ることから、話半分に聞くことを意味します。",
+    "examples": [
+      {
+        "english": "Take what he says with a grain of salt.",
+        "japanese": "彼の言うことは話半分に聞いてください。",
+        "tone": "casual"
+      },
+      {
+        "english": "The report should be taken with a grain of salt.",
+        "japanese": "その報告書は疑って聞くべきです。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["疑い", "慎重"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "93",
+    "title": "Through thick and thin",
+    "jpMeaning": "良い時も悪い時も、どんな時も",
+    "nuance": "厚い時も薄い時もということから、どんな時もを意味します。",
+    "examples": [
+      {
+        "english": "We've been together through thick and thin.",
+        "japanese": "私たちは良い時も悪い時も一緒でした。",
+        "tone": "casual"
+      },
+      {
+        "english": "The team supported each other through thick and thin.",
+        "japanese": "チームはどんな時もお互いを支えました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["支え", "継続"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "94",
+    "title": "Cry over spilled milk",
+    "jpMeaning": "取り返しのつかないことを嘆く、後悔する",
+    "nuance": "こぼれた牛乳を嘆くことから、取り返しのつかないことを嘆くことを意味します。",
+    "examples": [
+      {
+        "english": "Don't cry over spilled milk.",
+        "japanese": "取り返しのつかないことを嘆かないでください。",
+        "tone": "casual"
+      },
+      {
+        "english": "There's no point crying over spilled milk.",
+        "japanese": "後悔しても意味がありません。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["後悔", "嘆き"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "95",
+    "title": "Don't count your chickens before they hatch",
+    "jpMeaning": "取らぬ狸の皮算用、早計に期待する",
+    "nuance": "卵が孵る前に鶏を数えるなということから、早計に期待することを意味します。",
+    "examples": [
+      {
+        "english": "Don't count your chickens before they hatch.",
+        "japanese": "取らぬ狸の皮算用をしないでください。",
+        "tone": "casual"
+      },
+      {
+        "english": "The company shouldn't count its chickens before they hatch.",
+        "japanese": "会社は早計に期待すべきではありません。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["期待", "早計"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "96",
+    "title": "Bite your tongue",
+    "jpMeaning": "言いたいことを我慢する、黙る",
+    "nuance": "舌を噛むことから、言いたいことを我慢することを意味します。",
+    "examples": [
+      {
+        "english": "I had to bite my tongue during the meeting.",
+        "japanese": "会議中に言いたいことを我慢しなければなりませんでした。",
+        "tone": "casual"
+      },
+      {
+        "english": "Sometimes you need to bite your tongue.",
+        "japanese": "時には黙る必要があります。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["我慢", "沈黙"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "97",
+    "title": "Put two and two together",
+    "jpMeaning": "推論する、結論を導く",
+    "nuance": "2と2を合わせることから、推論することを意味します。",
+    "examples": [
+      {
+        "english": "I put two and two together and figured it out.",
+        "japanese": "推論して理解しました。",
+        "tone": "casual"
+      },
+      {
+        "english": "The detective put two and two together.",
+        "japanese": "探偵は結論を導きました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["推論", "理解"],
+    "level": "A2",
+    "isPremium": false
+  },
+  {
+    "id": "98",
+    "title": "Drive someone up the wall",
+    "jpMeaning": "人をイライラさせる、怒らせる",
+    "nuance": "人を壁の上まで運転することから、人をイライラさせることを意味します。",
+    "examples": [
+      {
+        "english": "You're driving me up the wall with your questions.",
+        "japanese": "あなたの質問でイライラしています。",
+        "tone": "casual"
+      },
+      {
+        "english": "The noise drove everyone up the wall.",
+        "japanese": "その騒音で皆がイライラしました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["イライラ", "怒り"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "99",
+    "title": "Go down the rabbit hole",
+    "jpMeaning": "複雑な状況に深入りする、迷路に入る",
+    "nuance": "ウサギの穴を下ることから、複雑な状況に深入りすることを意味します。",
+    "examples": [
+      {
+        "english": "Don't go down the rabbit hole with conspiracy theories.",
+        "japanese": "陰謀論で複雑な状況に深入りしないでください。",
+        "tone": "casual"
+      },
+      {
+        "english": "The investigation went down the rabbit hole.",
+        "japanese": "その調査は迷路に入りました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["深入り", "複雑"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "100",
+    "title": "Off the cuff",
+    "jpMeaning": "即興で、準備なしで",
+    "nuance": "袖口から外れることから、即興で行うことを意味します。",
+    "examples": [
+      {
+        "english": "I gave an off the cuff speech.",
+        "japanese": "即興でスピーチをしました。",
+        "tone": "casual"
+      },
+      {
+        "english": "The response was off the cuff.",
+        "japanese": "その返答は準備なしでした。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["即興", "準備なし"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "101",
+    "title": "Add insult to injury",
+    "jpMeaning": "傷口に塩を塗る、さらに悪化させる",
+    "enMeaning": "To make a bad situation even worse",
+    "nuance": "既に悪い状況にさらに侮辱や傷つけることを加えることを意味します。",
+    "examples": [
+      {
+        "english": "First I lost my job, then to add insult to injury, my car broke down.",
+        "japanese": "まず仕事を失い、さらに悪いことに車が故障しました。",
+        "tone": "casual"
+      },
+      {
+        "english": "The company laid off workers and then added insult to injury by cutting benefits.",
+        "japanese": "会社は従業員を解雇し、さらに悪いことに福利厚生を削減しました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["悪化", "侮辱"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "102",
+    "title": "At the drop of a hat",
+    "jpMeaning": "すぐに、即座に",
+    "enMeaning": "Immediately; without hesitation",
+    "nuance": "帽子が落ちる瞬間のように、非常に短時間で行動することを意味します。",
+    "examples": [
+      {
+        "english": "He would help you at the drop of a hat.",
+        "japanese": "彼はすぐにあなたを助けてくれるでしょう。",
+        "tone": "casual"
+      },
+      {
+        "english": "The team responded at the drop of a hat to the emergency.",
+        "japanese": "チームは緊急事態に即座に対応しました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["即座", "迅速"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "103",
+    "title": "By the skin of your teeth",
+    "jpMeaning": "かろうじて、ギリギリで",
+    "enMeaning": "Just barely; by a very small margin",
+    "nuance": "歯の表面のように、非常に小さな差で成功することを意味します。",
+    "examples": [
+      {
+        "english": "I passed the exam by the skin of my teeth.",
+        "japanese": "私はギリギリで試験に合格しました。",
+        "tone": "casual"
+      },
+      {
+        "english": "The project was completed by the skin of our teeth.",
+        "japanese": "プロジェクトはかろうじて完了しました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["ギリギリ", "かろうじて"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "104",
+    "title": "Get out of hand",
+    "jpMeaning": "手に負えなくなる、制御不能になる",
+    "enMeaning": "To become out of control",
+    "nuance": "手から離れることから、制御できなくなることを意味します。",
+    "examples": [
+      {
+        "english": "The party got out of hand when more people showed up.",
+        "japanese": "より多くの人が来た時、パーティーは手に負えなくなりました。",
+        "tone": "casual"
+      },
+      {
+        "english": "The situation got out of hand quickly.",
+        "japanese": "状況はすぐに制御不能になりました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["制御不能", "手に負えない"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "105",
+    "title": "Give someone the cold shoulder",
+    "jpMeaning": "冷たく扱う、無視する",
+    "enMeaning": "To ignore someone in an unfriendly way",
+    "nuance": "冷たい肩を向けることから、意図的に冷たく扱うことを意味します。",
+    "examples": [
+      {
+        "english": "She gave me the cold shoulder after our argument.",
+        "japanese": "私たちの口論の後、彼女は私を冷たく扱いました。",
+        "tone": "casual"
+      },
+      {
+        "english": "The team gave the new member the cold shoulder.",
+        "japanese": "チームは新しいメンバーを冷たく扱いました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["冷たい", "無視"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "106",
+    "title": "Hit the road",
+    "jpMeaning": "出発する、旅に出る",
+    "enMeaning": "To leave; to depart",
+    "nuance": "道路を叩くことから、出発することを意味します。",
+    "examples": [
+      {
+        "english": "It's time to hit the road and go home.",
+        "japanese": "出発して家に帰る時間です。",
+        "tone": "casual"
+      },
+      {
+        "english": "We need to hit the road early tomorrow.",
+        "japanese": "明日は早く出発する必要があります。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["出発", "旅"],
+    "level": "A2",
+    "isPremium": false
+  },
+  {
+    "id": "107",
+    "title": "In a nutshell",
+    "jpMeaning": "要約すると、簡潔に言うと",
+    "enMeaning": "In summary; very briefly",
+    "nuance": "ナッツの殻の中のように、非常に簡潔にまとめることを意味します。",
+    "examples": [
+      {
+        "english": "In a nutshell, the project was a success.",
+        "japanese": "要約すると、プロジェクトは成功でした。",
+        "tone": "casual"
+      },
+      {
+        "english": "The report, in a nutshell, shows positive results.",
+        "japanese": "報告書は、簡潔に言うと、良い結果を示しています。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["要約", "簡潔"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "108",
+    "title": "It's not rocket science",
+    "jpMeaning": "そんなに難しくない、簡単だ",
+    "enMeaning": "It's not difficult or complicated",
+    "nuance": "ロケット科学のように複雑ではないことを意味します。",
+    "examples": [
+      {
+        "english": "Cooking pasta is not rocket science.",
+        "japanese": "パスタを作るのはそんなに難しくありません。",
+        "tone": "casual"
+      },
+      {
+        "english": "The solution is not rocket science.",
+        "japanese": "その解決策はそんなに難しくありません。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["簡単", "難しくない"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "109",
+    "title": "Keep an eye on",
+    "jpMeaning": "注意深く見守る、監視する",
+    "enMeaning": "To watch carefully",
+    "nuance": "目を向けて注意深く見守ることを意味します。",
+    "examples": [
+      {
+        "english": "Keep an eye on the kids while I'm gone.",
+        "japanese": "私がいない間、子供たちを見守ってください。",
+        "tone": "casual"
+      },
+      {
+        "english": "We need to keep an eye on the market trends.",
+        "japanese": "市場の動向を注意深く見守る必要があります。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["監視", "見守る"],
+    "level": "A2",
+    "isPremium": false
+  },
+  {
+    "id": "110",
+    "title": "Kill two birds with one stone",
+    "jpMeaning": "一石二鳥",
+    "enMeaning": "To achieve two goals with a single action",
+    "nuance": "一つの石で二羽の鳥を殺すことから、一つの行動で二つの目的を達成することを意味します。",
+    "examples": [
+      {
+        "english": "By working from home, I kill two birds with one stone.",
+        "japanese": "在宅勤務することで、一石二鳥です。",
+        "tone": "casual"
+      },
+      {
+        "english": "This solution kills two birds with one stone.",
+        "japanese": "この解決策は一石二鳥です。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["一石二鳥", "効率"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "111",
+    "title": "Raining cats and dogs",
+    "jpMeaning": "土砂降りの雨",
+    "enMeaning": "Raining very heavily",
+    "nuance": "猫や犬が降るように、非常に激しく雨が降ることを意味します。",
+    "examples": [
+      {
+        "english": "It's raining cats and dogs outside.",
+        "japanese": "外は土砂降りです。",
+        "tone": "casual"
+      },
+      {
+        "english": "The weather forecast shows it will rain cats and dogs tomorrow.",
+        "japanese": "天気予報によると、明日は土砂降りになるでしょう。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["雨", "天気"],
+    "level": "A2",
+    "isPremium": false
+  },
+  {
+    "id": "112",
+    "title": "See eye to eye",
+    "jpMeaning": "意見が一致する、同じ見解を持つ",
+    "enMeaning": "To agree completely",
+    "nuance": "目と目が合うことから、完全に意見が一致することを意味します。",
+    "examples": [
+      {
+        "english": "We don't see eye to eye on this issue.",
+        "japanese": "この問題について私たちは意見が一致しません。",
+        "tone": "casual"
+      },
+      {
+        "english": "The committee members see eye to eye on the proposal.",
+        "japanese": "委員会のメンバーはその提案について同じ見解を持っています。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["一致", "同意"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "113",
+    "title": "The early bird gets the worm",
+    "jpMeaning": "早起きは三文の徳",
+    "enMeaning": "The person who arrives first or acts earliest has the best chance of success",
+    "nuance": "早い鳥が虫を捕まえることから、早く行動する人が成功することを意味します。",
+    "examples": [
+      {
+        "english": "The early bird gets the worm, so let's start early.",
+        "japanese": "早起きは三文の徳なので、早く始めましょう。",
+        "tone": "casual"
+      },
+      {
+        "english": "In business, the early bird gets the worm.",
+        "japanese": "ビジネスでは、早い者が勝ちます。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["早起き", "成功"],
+    "level": "A2",
+    "isPremium": false
+  },
+  {
+    "id": "114",
+    "title": "Wrap your head around something",
+    "jpMeaning": "理解する、把握する",
+    "enMeaning": "To understand something complicated",
+    "nuance": "頭を何かで包むことから、複雑なことを理解することを意味します。",
+    "examples": [
+      {
+        "english": "I can't wrap my head around this math problem.",
+        "japanese": "この数学の問題を理解できません。",
+        "tone": "casual"
+      },
+      {
+        "english": "It's hard to wrap your head around the new technology.",
+        "japanese": "新しい技術を理解するのは難しいです。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["理解", "把握"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "115",
+    "title": "Ahead of the curve",
+    "jpMeaning": "先を行く、先進的",
+    "enMeaning": "More advanced or innovative than others",
+    "nuance": "曲線の前にあることから、他の人より先を行くことを意味します。",
+    "examples": [
+      {
+        "english": "Our company is ahead of the curve in technology.",
+        "japanese": "私たちの会社は技術面で先を行っています。",
+        "tone": "casual"
+      },
+      {
+        "english": "The startup is ahead of the curve in innovation.",
+        "japanese": "そのスタートアップは革新性で先を行っています。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["先進的", "先を行く"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "116",
+    "title": "Back to basics",
+    "jpMeaning": "基本に戻る、原点回帰",
+    "enMeaning": "To return to the fundamental principles",
+    "nuance": "基本に戻ることから、根本的な原則に立ち返ることを意味します。",
+    "examples": [
+      {
+        "english": "Let's go back to basics and start over.",
+        "japanese": "基本に戻って、最初からやり直しましょう。",
+        "tone": "casual"
+      },
+      {
+        "english": "The team decided to go back to basics.",
+        "japanese": "チームは基本に戻ることを決めました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["基本", "原点"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "117",
+    "title": "Bandwidth",
+    "jpMeaning": "能力、余裕",
+    "enMeaning": "To have or not have the capacity, time, or energy",
+    "nuance": "通信の帯域幅から派生し、何かに対処する能力や余裕を意味します。",
+    "examples": [
+      {
+        "english": "I don't have the bandwidth for another project.",
+        "japanese": "別のプロジェクトをする余裕がありません。",
+        "tone": "casual"
+      },
+      {
+        "english": "The team has limited bandwidth this month.",
+        "japanese": "チームは今月、能力が限られています。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["能力", "余裕"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "118",
+    "title": "Bleeding edge",
+    "jpMeaning": "最先端、革新的",
+    "enMeaning": "The very forefront of technological development",
+    "nuance": "切った刃のように、技術開発の最前線を意味します。",
+    "examples": [
+      {
+        "english": "This is bleeding edge technology.",
+        "japanese": "これは最先端の技術です。",
+        "tone": "casual"
+      },
+      {
+        "english": "The company invests in bleeding edge research.",
+        "japanese": "その会社は最先端の研究に投資しています。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["最先端", "革新的"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "119",
+    "title": "Circle back",
+    "jpMeaning": "後で戻る、再検討する",
+    "enMeaning": "To return to a topic or person later",
+    "nuance": "円を描いて戻ることから、後で話題や人に戻ることを意味します。",
+    "examples": [
+      {
+        "english": "Let's circle back to this issue next week.",
+        "japanese": "来週、この問題に戻りましょう。",
+        "tone": "casual"
+      },
+      {
+        "english": "We'll circle back to the proposal after the meeting.",
+        "japanese": "会議の後、その提案に戻ります。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["戻る", "再検討"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "120",
+    "title": "Drill down",
+    "jpMeaning": "詳しく調べる、深掘りする",
+    "enMeaning": "To investigate something in more detail",
+    "nuance": "ドリルで掘り下げることから、何かを詳しく調査することを意味します。",
+    "examples": [
+      {
+        "english": "Let's drill down into the data.",
+        "japanese": "データを詳しく調べましょう。",
+        "tone": "casual"
+      },
+      {
+        "english": "We need to drill down into the root cause.",
+        "japanese": "根本原因を詳しく調べる必要があります。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["詳しく調べる", "深掘り"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "121",
+    "title": "Low-hanging fruit",
+    "jpMeaning": "簡単に手に入るもの、容易な目標",
+    "enMeaning": "The easiest problems to solve or opportunities to seize",
+    "nuance": "低く垂れ下がった果実のように、簡単に手に入るものを意味します。",
+    "examples": [
+      {
+        "english": "Let's start with the low-hanging fruit.",
+        "japanese": "簡単なものから始めましょう。",
+        "tone": "casual"
+      },
+      {
+        "english": "The company focused on low-hanging fruit first.",
+        "japanese": "会社はまず容易な目標に焦点を当てました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["簡単", "容易"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "122",
+    "title": "Move the needle",
+    "jpMeaning": "変化をもたらす、影響を与える",
+    "enMeaning": "To make a noticeable difference or impact",
+    "nuance": "針を動かすことから、目に見える変化や影響をもたらすことを意味します。",
+    "examples": [
+      {
+        "english": "This new feature will move the needle for our users.",
+        "japanese": "この新機能はユーザーに変化をもたらすでしょう。",
+        "tone": "casual"
+      },
+      {
+        "english": "The campaign moved the needle on sales.",
+        "japanese": "そのキャンペーンは売上に影響を与えました。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["変化", "影響"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "123",
+    "title": "Outside the box",
+    "jpMeaning": "既成概念にとらわれない、創造的",
+    "enMeaning": "To think creatively or unconventionally",
+    "nuance": "箱の外側のように、既成概念にとらわれずに考えることを意味します。",
+    "examples": [
+      {
+        "english": "We need to think outside the box.",
+        "japanese": "既成概念にとらわれずに考える必要があります。",
+        "tone": "casual"
+      },
+      {
+        "english": "The solution requires outside the box thinking.",
+        "japanese": "その解決策には創造的な思考が必要です。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["創造的", "革新的"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "124",
+    "title": "Ping",
+    "jpMeaning": "連絡する、メッセージを送る",
+    "enMeaning": "To send a quick message to someone",
+    "nuance": "ネットワークテストのpingから派生し、簡単なメッセージを送ることを意味します。",
+    "examples": [
+      {
+        "english": "I'll ping you when I'm ready.",
+        "japanese": "準備ができたら連絡します。",
+        "tone": "casual"
+      },
+      {
+        "english": "Please ping me with the results.",
+        "japanese": "結果を教えてください。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["連絡", "メッセージ"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "125",
+    "title": "Plug and play",
+    "jpMeaning": "すぐに使える、簡単に導入できる",
+    "enMeaning": "Something that is easy to use immediately",
+    "nuance": "コンピュータハードウェアの用語から派生し、すぐに使えることを意味します。",
+    "examples": [
+      {
+        "english": "This software is plug and play.",
+        "japanese": "このソフトウェアはすぐに使えます。",
+        "tone": "casual"
+      },
+      {
+        "english": "The new system is designed to be plug and play.",
+        "japanese": "新しいシステムはすぐに導入できるように設計されています。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["簡単", "すぐに使える"],
+    "level": "B1",
+    "isPremium": false
+  },
+  {
+    "id": "126",
+    "title": "Push the envelope",
+    "jpMeaning": "限界を超える、境界を押し広げる",
+    "enMeaning": "To go beyond the usual limits",
+    "nuance": "封筒を押すことから、通常の限界を超えることを意味します。",
+    "examples": [
+      {
+        "english": "The artist pushes the envelope with her work.",
+        "japanese": "そのアーティストは作品で限界を超えています。",
+        "tone": "casual"
+      },
+      {
+        "english": "The company pushes the envelope in innovation.",
+        "japanese": "その会社は革新性で境界を押し広げています。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["限界", "革新"],
+    "level": "C1",
+    "isPremium": true
+  },
+  {
+    "id": "127",
+    "title": "Run it up the flagpole",
+    "jpMeaning": "試してみる、反応を見る",
+    "enMeaning": "To propose an idea to see what kind of reaction it gets",
+    "nuance": "旗竿に旗を上げることから、アイデアを提案して反応を見ることを意味します。",
+    "examples": [
+      {
+        "english": "Let's run this idea up the flagpole.",
+        "japanese": "このアイデアを試してみましょう。",
+        "tone": "casual"
+      },
+      {
+        "english": "We'll run the proposal up the flagpole.",
+        "japanese": "その提案の反応を見てみます。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["試す", "反応"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "128",
+    "title": "Synergy",
+    "jpMeaning": "相乗効果、シナジー",
+    "enMeaning": "The increased effectiveness that results when two or more people or companies work together",
+    "nuance": "複数の要素が組み合わさって、より大きな効果を生み出すことを意味します。",
+    "examples": [
+      {
+        "english": "The merger created great synergy.",
+        "japanese": "その合併は大きな相乗効果を生み出しました。",
+        "tone": "casual"
+      },
+      {
+        "english": "The partnership shows strong synergy.",
+        "japanese": "そのパートナーシップは強い相乗効果を示しています。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["相乗効果", "協力"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "129",
+    "title": "Take it offline",
+    "jpMeaning": "個別に話し合う、非公開で議論する",
+    "enMeaning": "To discuss a matter in private",
+    "nuance": "オンラインから外すことから、個別に話し合うことを意味します。",
+    "examples": [
+      {
+        "english": "Let's take this discussion offline.",
+        "japanese": "この議論は個別に話し合いましょう。",
+        "tone": "casual"
+      },
+      {
+        "english": "We'll take the sensitive issues offline.",
+        "japanese": "機密事項は非公開で議論します。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["個別", "非公開"],
+    "level": "B2",
+    "isPremium": true
+  },
+  {
+    "id": "A1-6",
+    "title": "Give someone a hand",
+    "jpMeaning": "手伝う、助ける",
+    "enMeaning": "To help someone",
+    "nuance": "「手を貸す」という直訳から、誰かを助けることを意味します。",
+    "examples": [
+      {
+        "english": "Can you give me a hand with this?",
+        "japanese": "これを手伝ってもらえますか？",
+        "tone": "casual"
+      },
+      {
+        "english": "I'll give you a hand with the project.",
+        "japanese": "プロジェクトを手伝います。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["手伝う", "助ける"],
+    "level": "A1",
+    "isPremium": false
+  },
+  {
+    "id": "A1-7",
+    "title": "On the ball",
+    "jpMeaning": "機敏な、注意深い",
+    "enMeaning": "Alert and competent",
+    "nuance": "ボールの上にいることから、機敏で注意深いことを意味します。",
+    "examples": [
+      {
+        "english": "You're really on the ball today!",
+        "japanese": "今日は本当に機敏ですね！",
+        "tone": "casual"
+      },
+      {
+        "english": "The new employee is really on the ball.",
+        "japanese": "新しい従業員は本当に機敏です。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["機敏", "注意深い"],
+    "level": "A1",
+    "isPremium": false
+  },
+  {
+    "id": "A1-8",
+    "title": "The last straw",
+    "jpMeaning": "最後の一撃、限界",
+    "enMeaning": "The final problem that makes a situation unbearable",
+    "nuance": "最後の藁から、我慢の限界に達する最後の問題を意味します。",
+    "examples": [
+      {
+        "english": "This is the last straw!",
+        "japanese": "これが最後の一撃だ！",
+        "tone": "casual"
+      },
+      {
+        "english": "That was the last straw for the company.",
+        "japanese": "それが会社にとって最後の一撃でした。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["限界", "最後"],
+    "level": "A1",
+    "isPremium": false
+  },
+  {
+    "id": "A1-9",
+    "title": "Time flies",
+    "jpMeaning": "時間が経つのが早い",
+    "enMeaning": "Time passes quickly",
+    "nuance": "時間が飛ぶことから、時間が経つのが早いことを意味します。",
+    "examples": [
+      {
+        "english": "Time flies when you're having fun!",
+        "japanese": "楽しい時は時間が経つのが早い！",
+        "tone": "casual"
+      },
+      {
+        "english": "Time flies when you're busy.",
+        "japanese": "忙しい時は時間が経つのが早い。",
+        "tone": "formal"
+      }
+    ],
+    "tags": ["時間", "早い"],
+    "level": "A1",
+    "isPremium": false
+  }
+] 

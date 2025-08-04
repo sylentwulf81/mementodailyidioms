@@ -1,0 +1,2172 @@
+{
+  "quiz_questions": {
+    "A1": {
+      "Long time no see": {
+        "meaning": {
+          "question": "What does 'Long time no see' mean?",
+          "question_jp": "「Long time no see」の意味は？",
+          "correct_answer": "It's been a while since we last met",
+          "correct_answer_jp": "久しぶり",
+          "distractors": [
+            "I don't see you",
+            "Time is long",
+            "See you later"
+          ],
+          "distractors_jp": [
+            "あなたを見ません",
+            "時間が長い",
+            "また後で"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: _____! How have you been?",
+          "question_jp": "空欄を埋めてください：_____! How have you been?",
+          "correct_answer": "Long time no see",
+          "distractors": [
+            "Good morning",
+            "See you later",
+            "How are you"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'Long time no see'?",
+          "question_jp": "「Long time no see」はいつ使いますか？",
+          "correct_answer": "When meeting someone after a long time",
+          "correct_answer_jp": "久しぶりに会った時",
+          "distractors": [
+            "When saying goodbye",
+            "When asking for help",
+            "When ordering food"
+          ],
+          "distractors_jp": [
+            "別れの挨拶をする時",
+            "助けを求める時",
+            "食べ物を注文する時"
+          ]
+        }
+      },
+      "What's up": {
+        "meaning": {
+          "question": "What does 'What's up' mean?",
+          "question_jp": "「What's up」の意味は？",
+          "correct_answer": "What's happening? How are you?",
+          "correct_answer_jp": "どうしたの？元気？",
+          "distractors": [
+            "What is above",
+            "What is down",
+            "What is here"
+          ],
+          "distractors_jp": [
+            "何が上にありますか",
+            "何が下にありますか",
+            "何がここにありますか"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: Hey! _____?",
+          "question_jp": "空欄を埋めてください：Hey! _____?",
+          "correct_answer": "What's up",
+          "distractors": [
+            "How are you",
+            "Good morning",
+            "See you later"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'What's up'?",
+          "question_jp": "「What's up」はいつ使いますか？",
+          "correct_answer": "When greeting friends casually",
+          "correct_answer_jp": "友達にカジュアルに挨拶する時",
+          "distractors": [
+            "In formal meetings",
+            "When saying goodbye",
+            "When asking for help"
+          ],
+          "distractors_jp": [
+            "正式な会議で",
+            "別れの挨拶をする時",
+            "助けを求める時"
+          ]
+        }
+      },
+      "No problem": {
+        "meaning": {
+          "question": "What does 'No problem' mean?",
+          "question_jp": "「No problem」の意味は？",
+          "correct_answer": "It's not a problem, it's okay",
+          "correct_answer_jp": "問題ない、大丈夫",
+          "distractors": [
+            "There is a problem",
+            "I have a problem",
+            "This is a problem"
+          ],
+          "distractors_jp": [
+            "問題があります",
+            "私は問題があります",
+            "これは問題です"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: Thanks for helping me. - _____!",
+          "question_jp": "空欄を埋めてください：Thanks for helping me. - _____!",
+          "correct_answer": "No problem",
+          "distractors": [
+            "Thank you",
+            "Goodbye",
+            "Hello"
+          ]
+        },
+        "context": {
+          "question": "When do you say 'No problem'?",
+          "question_jp": "「No problem」はいつ言いますか？",
+          "correct_answer": "When someone thanks you for help",
+          "correct_answer_jp": "誰かが助けてくれてお礼を言った時",
+          "distractors": [
+            "When greeting someone",
+            "When saying goodbye",
+            "When asking for help"
+          ],
+          "distractors_jp": [
+            "人に挨拶する時",
+            "別れの挨拶をする時",
+            "助けを求める時"
+          ]
+        }
+      },
+      "Take care": {
+        "meaning": {
+          "question": "What does 'Take care' mean?",
+          "question_jp": "「Take care」の意味は？",
+          "correct_answer": "Be careful, stay well",
+          "correct_answer_jp": "お気をつけて、元気で",
+          "distractors": [
+            "Take something",
+            "Care about it",
+            "Take it away"
+          ],
+          "distractors_jp": [
+            "何かを取る",
+            "それについて気にする",
+            "それを取り除く"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: See you later! _____!",
+          "question_jp": "空欄を埋めてください：See you later! _____!",
+          "correct_answer": "Take care",
+          "distractors": [
+            "Thank you",
+            "Goodbye",
+            "Hello"
+          ]
+        },
+        "context": {
+          "question": "When do you say 'Take care'?",
+          "question_jp": "「Take care」はいつ言いますか？",
+          "correct_answer": "When saying goodbye to someone",
+          "correct_answer_jp": "誰かと別れる時",
+          "distractors": [
+            "When greeting someone",
+            "When asking for help",
+            "When ordering food"
+          ],
+          "distractors_jp": [
+            "人に挨拶する時",
+            "助けを求める時",
+            "食べ物を注文する時"
+          ]
+        }
+      },
+      "See you later": {
+        "meaning": {
+          "question": "What does 'See you later' mean?",
+          "question_jp": "「See you later」の意味は？",
+          "correct_answer": "Goodbye, see you again",
+          "correct_answer_jp": "また後で、さようなら",
+          "distractors": [
+            "See you now",
+            "See you never",
+            "See you always"
+          ],
+          "distractors_jp": [
+            "今会いましょう",
+            "決して会いません",
+            "いつも会いましょう"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: I have to go now. _____!",
+          "question_jp": "空欄を埋めてください：I have to go now. _____!",
+          "correct_answer": "See you later",
+          "distractors": [
+            "Good morning",
+            "Thank you",
+            "Hello"
+          ]
+        },
+        "context": {
+          "question": "When do you say 'See you later'?",
+          "question_jp": "「See you later」はいつ言いますか？",
+          "correct_answer": "When saying goodbye to someone",
+          "correct_answer_jp": "誰かと別れる時",
+          "distractors": [
+            "When greeting someone",
+            "When asking for help",
+            "When ordering food"
+          ],
+          "distractors_jp": [
+            "人に挨拶する時",
+            "助けを求める時",
+            "食べ物を注文する時"
+          ]
+        }
+      }
+    },
+    "A2": {
+      "Break a leg": {
+        "meaning": {
+          "question": "What does 'Break a leg' mean?",
+          "question_jp": "「Break a leg」の意味は？",
+          "correct_answer": "Good luck!",
+          "correct_answer_jp": "頑張って！成功を祈る！",
+          "distractors": [
+            "Break your leg",
+            "Get hurt",
+            "Run away"
+          ],
+          "distractors_jp": [
+            "足を折る",
+            "怪我をする",
+            "逃げる"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: _____ before your performance!",
+          "question_jp": "空欄を埋めてください：_____ before your performance!",
+          "correct_answer": "Break a leg",
+          "distractors": [
+            "Good luck",
+            "Have fun",
+            "Do well"
+          ]
+        },
+        "context": {
+          "question": "In what context would you use 'Break a leg'?",
+          "question_jp": "「Break a leg」はどのような場面で使われますか？",
+          "correct_answer": "Before a performance or show",
+          "correct_answer_jp": "舞台やパフォーマンスの前",
+          "distractors": [
+            "When someone is sick",
+            "Before a sports game",
+            "Before a job interview"
+          ],
+          "distractors_jp": [
+            "病気の時",
+            "スポーツの試合前",
+            "仕事の面接前"
+          ]
+        }
+      },
+      "Piece of cake": {
+        "meaning": {
+          "question": "What does 'Piece of cake' mean?",
+          "question_jp": "「Piece of cake」の意味は？",
+          "correct_answer": "Something very easy",
+          "correct_answer_jp": "非常に簡単なこと",
+          "distractors": [
+            "Delicious food",
+            "A difficult challenge",
+            "A complex problem"
+          ],
+          "distractors_jp": [
+            "おいしい食べ物",
+            "困難な課題",
+            "複雑な問題"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: This test was a _____!",
+          "question_jp": "空欄を埋めてください：This test was a _____!",
+          "correct_answer": "Piece of cake",
+          "distractors": [
+            "Piece of bread",
+            "Piece of pie",
+            "Piece of work"
+          ]
+        },
+        "context": {
+          "question": "What situation does 'Piece of cake' describe?",
+          "question_jp": "「Piece of cake」はどのような状況を表しますか？",
+          "correct_answer": "Something very easy",
+          "correct_answer_jp": "非常に簡単なこと",
+          "distractors": [
+            "Delicious food",
+            "A difficult challenge",
+            "A complex problem"
+          ],
+          "distractors_jp": [
+            "おいしい食べ物",
+            "困難な課題",
+            "複雑な問題"
+          ]
+        }
+      },
+      "Hit the road": {
+        "meaning": {
+          "question": "What does 'Hit the road' mean?",
+          "question_jp": "「Hit the road」の意味は？",
+          "correct_answer": "To leave; to depart",
+          "correct_answer_jp": "出発する、旅に出る",
+          "distractors": [
+            "To drive a car",
+            "To walk on the road",
+            "To repair the road"
+          ],
+          "distractors_jp": [
+            "車を運転する",
+            "道路を歩く",
+            "道路を修理する"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: It's time to _____ and go home.",
+          "question_jp": "空欄を埋めてください：It's time to _____ and go home.",
+          "correct_answer": "hit the road",
+          "distractors": [
+            "drive the car",
+            "walk the path",
+            "take the bus"
+          ]
+        },
+        "context": {
+          "question": "When do you say 'Hit the road'?",
+          "question_jp": "「Hit the road」はいつ言いますか？",
+          "correct_answer": "When leaving or departing",
+          "correct_answer_jp": "出発する時",
+          "distractors": [
+            "When arriving",
+            "When working",
+            "When sleeping"
+          ],
+          "distractors_jp": [
+            "到着する時",
+            "働く時",
+            "寝る時"
+          ]
+        }
+      },
+      "Keep an eye on": {
+        "meaning": {
+          "question": "What does 'Keep an eye on' mean?",
+          "question_jp": "「Keep an eye on」の意味は？",
+          "correct_answer": "To watch carefully",
+          "correct_answer_jp": "注意深く見守る、監視する",
+          "distractors": [
+            "To close your eyes",
+            "To look away",
+            "To ignore something"
+          ],
+          "distractors_jp": [
+            "目を閉じる",
+            "目をそらす",
+            "何かを無視する"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: _____ the kids while I'm gone.",
+          "question_jp": "空欄を埋めてください：_____ the kids while I'm gone.",
+          "correct_answer": "Keep an eye on",
+          "distractors": [
+            "Look at",
+            "Watch for",
+            "Check on"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'Keep an eye on'?",
+          "question_jp": "「Keep an eye on」はいつ使いますか？",
+          "correct_answer": "When watching something carefully",
+          "correct_answer_jp": "何かを注意深く見守る時",
+          "distractors": [
+            "When sleeping",
+            "When eating",
+            "When working"
+          ],
+          "distractors_jp": [
+            "寝る時",
+            "食べる時",
+            "働く時"
+          ]
+        }
+      },
+      "Raining cats and dogs": {
+        "meaning": {
+          "question": "What does 'Raining cats and dogs' mean?",
+          "question_jp": "「Raining cats and dogs」の意味は？",
+          "correct_answer": "Raining very heavily",
+          "correct_answer_jp": "土砂降りの雨",
+          "distractors": [
+            "Animals falling from sky",
+            "Light rain",
+            "No rain at all"
+          ],
+          "distractors_jp": [
+            "動物が空から降る",
+            "小雨",
+            "全く雨が降らない"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: It's _____ outside.",
+          "question_jp": "空欄を埋めてください：It's _____ outside.",
+          "correct_answer": "raining cats and dogs",
+          "distractors": [
+            "raining lightly",
+            "sunny outside",
+            "snowing heavily"
+          ]
+        },
+        "context": {
+          "question": "When do you say 'Raining cats and dogs'?",
+          "question_jp": "「Raining cats and dogs」はいつ言いますか？",
+          "correct_answer": "When it's raining very heavily",
+          "correct_answer_jp": "非常に激しく雨が降っている時",
+          "distractors": [
+            "When it's sunny",
+            "When it's snowing",
+            "When it's cloudy"
+          ],
+          "distractors_jp": [
+            "晴れている時",
+            "雪が降っている時",
+            "曇っている時"
+          ]
+        }
+      },
+      "The early bird gets the worm": {
+        "meaning": {
+          "question": "What does 'The early bird gets the worm' mean?",
+          "question_jp": "「The early bird gets the worm」の意味は？",
+          "correct_answer": "The person who arrives first has the best chance of success",
+          "correct_answer_jp": "早く行動する人が成功する",
+          "distractors": [
+            "Birds eat worms",
+            "Worms are important",
+            "Birds are early"
+          ],
+          "distractors_jp": [
+            "鳥は虫を食べる",
+            "虫は重要だ",
+            "鳥は早い"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: _____, so let's start early.",
+          "question_jp": "空欄を埋めてください：_____, so let's start early.",
+          "correct_answer": "The early bird gets the worm",
+          "distractors": [
+            "Time is money",
+            "Better late than never",
+            "Practice makes perfect"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'The early bird gets the worm'?",
+          "question_jp": "「The early bird gets the worm」はいつ使いますか？",
+          "correct_answer": "When encouraging early action",
+          "correct_answer_jp": "早い行動を促す時",
+          "distractors": [
+            "When going to bed",
+            "When eating lunch",
+            "When watching TV"
+          ],
+          "distractors_jp": [
+            "寝る時",
+            "昼食を食べる時",
+            "テレビを見る時"
+          ]
+        }
+      },
+      "Under the weather": {
+        "meaning": {
+          "question": "What does 'Under the weather' mean?",
+          "question_jp": "「Under the weather」の意味は？",
+          "correct_answer": "Feeling unwell",
+          "correct_answer_jp": "体調が悪い状態",
+          "distractors": [
+            "Bad weather",
+            "Feeling good",
+            "Feeling tired"
+          ],
+          "distractors_jp": [
+            "天気が悪い",
+            "気分が良い",
+            "疲れている"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: I'm feeling _____ today.",
+          "question_jp": "空欄を埋めてください：I'm feeling _____ today.",
+          "correct_answer": "Under the weather",
+          "distractors": [
+            "Under the sun",
+            "Under the rain",
+            "Under the cloud"
+          ]
+        },
+        "context": {
+          "question": "What condition does 'Under the weather' describe?",
+          "question_jp": "「Under the weather」はどのような状態を表しますか？",
+          "correct_answer": "Feeling unwell",
+          "correct_answer_jp": "体調が悪い状態",
+          "distractors": [
+            "Bad weather",
+            "Feeling good",
+            "Feeling tired"
+          ],
+          "distractors_jp": [
+            "天気が悪い",
+            "気分が良い",
+            "疲れている"
+          ]
+        }
+      }
+    },
+    "B1": {
+      "Hit the books": {
+        "meaning": {
+          "question": "What does 'Hit the books' mean?",
+          "question_jp": "「Hit the books」の意味は？",
+          "correct_answer": "Study hard",
+          "correct_answer_jp": "一生懸命勉強する",
+          "distractors": [
+            "Throw books",
+            "Go to the library",
+            "Buy books"
+          ],
+          "distractors_jp": [
+            "本を投げる",
+            "図書館に行く",
+            "本を買う"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: I need to _____ for my exam.",
+          "question_jp": "空欄を埋めてください：I need to _____ for my exam.",
+          "correct_answer": "Hit the books",
+          "distractors": [
+            "Hit the library",
+            "Hit the study",
+            "Hit the learning"
+          ]
+        },
+        "context": {
+          "question": "What action does 'Hit the books' describe?",
+          "question_jp": "「Hit the books」はどのような行動を表しますか？",
+          "correct_answer": "Study hard",
+          "correct_answer_jp": "一生懸命勉強する",
+          "distractors": [
+            "Throw books",
+            "Go to the library",
+            "Buy books"
+          ],
+          "distractors_jp": [
+            "本を投げる",
+            "図書館に行く",
+            "本を買う"
+          ]
+        }
+      },
+      "Let the cat out of the bag": {
+        "meaning": {
+          "question": "What does 'Let the cat out of the bag' mean?",
+          "question_jp": "「Let the cat out of the bag」の意味は？",
+          "correct_answer": "Reveal a secret",
+          "correct_answer_jp": "秘密を漏らす",
+          "distractors": [
+            "Let a cat escape",
+            "Open a bag",
+            "Keep a secret"
+          ],
+          "distractors_jp": [
+            "猫を逃がす",
+            "袋を開ける",
+            "秘密を守る"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: Don't _____ about the surprise party!",
+          "question_jp": "空欄を埋めてください：Don't _____ about the surprise party!",
+          "correct_answer": "Let the cat out of the bag",
+          "distractors": [
+            "Let the dog out",
+            "Let the secret out",
+            "Let the news out"
+          ]
+        },
+        "context": {
+          "question": "What action does 'Let the cat out of the bag' describe?",
+          "question_jp": "「Let the cat out of the bag」はどのような行動を表しますか？",
+          "correct_answer": "Reveal a secret",
+          "correct_answer_jp": "秘密を漏らす",
+          "distractors": [
+            "Let a cat escape",
+            "Open a bag",
+            "Keep a secret"
+          ],
+          "distractors_jp": [
+            "猫を逃がす",
+            "袋を開ける",
+            "秘密を守る"
+          ]
+        }
+      },
+      "At the drop of a hat": {
+        "meaning": {
+          "question": "What does 'At the drop of a hat' mean?",
+          "question_jp": "「At the drop of a hat」の意味は？",
+          "correct_answer": "Immediately; without hesitation",
+          "correct_answer_jp": "すぐに、即座に",
+          "distractors": [
+            "When a hat falls",
+            "Slowly and carefully",
+            "After thinking"
+          ],
+          "distractors_jp": [
+            "帽子が落ちた時",
+            "ゆっくりと慎重に",
+            "考えた後"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: He would help you _____.",
+          "question_jp": "空欄を埋めてください：He would help you _____.",
+          "correct_answer": "at the drop of a hat",
+          "distractors": [
+            "when he has time",
+            "after thinking",
+            "if you ask nicely"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'At the drop of a hat'?",
+          "question_jp": "「At the drop of a hat」はいつ使いますか？",
+          "correct_answer": "When someone acts immediately",
+          "correct_answer_jp": "誰かが即座に行動する時",
+          "distractors": [
+            "When someone is slow",
+            "When someone is careful",
+            "When someone is hesitant"
+          ],
+          "distractors_jp": [
+            "誰かが遅い時",
+            "誰かが慎重な時",
+            "誰かが躊躇している時"
+          ]
+        }
+      },
+      "Get out of hand": {
+        "meaning": {
+          "question": "What does 'Get out of hand' mean?",
+          "question_jp": "「Get out of hand」の意味は？",
+          "correct_answer": "To become out of control",
+          "correct_answer_jp": "手に負えなくなる、制御不能になる",
+          "distractors": [
+            "To lose your hand",
+            "To wash your hands",
+            "To raise your hand"
+          ],
+          "distractors_jp": [
+            "手を失う",
+            "手を洗う",
+            "手を上げる"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: The party _____ when more people showed up.",
+          "question_jp": "空欄を埋めてください：The party _____ when more people showed up.",
+          "correct_answer": "got out of hand",
+          "distractors": [
+            "got better",
+            "got smaller",
+            "got quieter"
+          ]
+        },
+        "context": {
+          "question": "When do you say 'Get out of hand'?",
+          "question_jp": "「Get out of hand」はいつ言いますか？",
+          "correct_answer": "When a situation becomes uncontrollable",
+          "correct_answer_jp": "状況が制御不能になった時",
+          "distractors": [
+            "When everything is going well",
+            "When people are quiet",
+            "When people are organized"
+          ],
+          "distractors_jp": [
+            "すべてが順調な時",
+            "人々が静かな時",
+            "人々が整理されている時"
+          ]
+        }
+      },
+      "In a nutshell": {
+        "meaning": {
+          "question": "What does 'In a nutshell' mean?",
+          "question_jp": "「In a nutshell」の意味は？",
+          "correct_answer": "In summary; very briefly",
+          "correct_answer_jp": "要約すると、簡潔に言うと",
+          "distractors": [
+            "Inside a nut",
+            "In great detail",
+            "In a long story"
+          ],
+          "distractors_jp": [
+            "ナッツの中に",
+            "詳細に",
+            "長い話で"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: _____, the project was a success.",
+          "question_jp": "空欄を埋めてください：_____, the project was a success.",
+          "correct_answer": "In a nutshell",
+          "distractors": [
+            "In detail",
+            "In summary",
+            "In conclusion"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'In a nutshell'?",
+          "question_jp": "「In a nutshell」はいつ使いますか？",
+          "correct_answer": "When summarizing something briefly",
+          "correct_answer_jp": "何かを簡潔にまとめる時",
+          "distractors": [
+            "When telling a long story",
+            "When giving details",
+            "When asking questions"
+          ],
+          "distractors_jp": [
+            "長い話をする時",
+            "詳細を説明する時",
+            "質問をする時"
+          ]
+        }
+      },
+      "It's not rocket science": {
+        "meaning": {
+          "question": "What does 'It's not rocket science' mean?",
+          "question_jp": "「It's not rocket science」の意味は？",
+          "correct_answer": "It's not difficult or complicated",
+          "correct_answer_jp": "そんなに難しくない、簡単だ",
+          "distractors": [
+            "It's about rockets",
+            "It's very difficult",
+            "It's scientific"
+          ],
+          "distractors_jp": [
+            "ロケットについて",
+            "非常に難しい",
+            "科学的だ"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: Cooking pasta _____.",
+          "question_jp": "空欄を埋めてください：Cooking pasta _____.",
+          "correct_answer": "is not rocket science",
+          "distractors": [
+            "is very difficult",
+            "is complicated",
+            "is scientific"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'It's not rocket science'?",
+          "question_jp": "「It's not rocket science」はいつ使いますか？",
+          "correct_answer": "When something is simple or easy",
+          "correct_answer_jp": "何かが簡単な時",
+          "distractors": [
+            "When something is difficult",
+            "When something is complex",
+            "When something is scientific"
+          ],
+          "distractors_jp": [
+            "何かが難しい時",
+            "何かが複雑な時",
+            "何かが科学的な時"
+          ]
+        }
+      },
+      "Kill two birds with one stone": {
+        "meaning": {
+          "question": "What does 'Kill two birds with one stone' mean?",
+          "question_jp": "「Kill two birds with one stone」の意味は？",
+          "correct_answer": "To achieve two goals with a single action",
+          "correct_answer_jp": "一石二鳥",
+          "distractors": [
+            "To hurt animals",
+            "To throw stones",
+            "To do one thing"
+          ],
+          "distractors_jp": [
+            "動物を傷つける",
+            "石を投げる",
+            "一つのことをする"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: By working from home, I _____.",
+          "question_jp": "空欄を埋めてください：By working from home, I _____.",
+          "correct_answer": "kill two birds with one stone",
+          "distractors": [
+            "do one thing",
+            "work hard",
+            "stay home"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'Kill two birds with one stone'?",
+          "question_jp": "「Kill two birds with one stone」はいつ使いますか？",
+          "correct_answer": "When achieving multiple goals at once",
+          "correct_answer_jp": "一度に複数の目標を達成する時",
+          "distractors": [
+            "When doing one thing",
+            "When working slowly",
+            "When making mistakes"
+          ],
+          "distractors_jp": [
+            "一つのことをする時",
+            "ゆっくり働く時",
+            "間違いをする時"
+          ]
+        }
+      },
+      "See eye to eye": {
+        "meaning": {
+          "question": "What does 'See eye to eye' mean?",
+          "question_jp": "「See eye to eye」の意味は？",
+          "correct_answer": "To agree completely",
+          "correct_answer_jp": "意見が一致する、同じ見解を持つ",
+          "distractors": [
+            "To look at each other",
+            "To disagree",
+            "To argue"
+          ],
+          "distractors_jp": [
+            "お互いを見る",
+            "意見が合わない",
+            "議論する"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: We don't _____ on this issue.",
+          "question_jp": "空欄を埋めてください：We don't _____ on this issue.",
+          "correct_answer": "see eye to eye",
+          "distractors": [
+            "look at each other",
+            "agree completely",
+            "have the same opinion"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'See eye to eye'?",
+          "question_jp": "「See eye to eye」はいつ使いますか？",
+          "correct_answer": "When people completely agree",
+          "correct_answer_jp": "人々が完全に同意する時",
+          "distractors": [
+            "When people disagree",
+            "When people argue",
+            "When people fight"
+          ],
+          "distractors_jp": [
+            "人々が意見を合わない時",
+            "人々が議論する時",
+            "人々が戦う時"
+          ]
+        }
+      },
+      "Back to basics": {
+        "meaning": {
+          "question": "What does 'Back to basics' mean?",
+          "question_jp": "「Back to basics」の意味は？",
+          "correct_answer": "To return to the fundamental principles",
+          "correct_answer_jp": "基本に戻る、原点回帰",
+          "distractors": [
+            "To go forward",
+            "To stay the same",
+            "To become advanced"
+          ],
+          "distractors_jp": [
+            "前に進む",
+            "同じまま",
+            "進歩する"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: Let's go _____ and start over.",
+          "question_jp": "空欄を埋めてください：Let's go _____ and start over.",
+          "correct_answer": "back to basics",
+          "distractors": [
+            "forward to advanced",
+            "sideways to different",
+            "upward to higher"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'Back to basics'?",
+          "question_jp": "「Back to basics」はいつ使いますか？",
+          "correct_answer": "When returning to fundamental principles",
+          "correct_answer_jp": "根本的な原則に戻る時",
+          "distractors": [
+            "When moving forward",
+            "When staying the same",
+            "When becoming advanced"
+          ],
+          "distractors_jp": [
+            "前に進む時",
+            "同じままの時",
+            "進歩する時"
+          ]
+        }
+      },
+      "Low-hanging fruit": {
+        "meaning": {
+          "question": "What does 'Low-hanging fruit' mean?",
+          "question_jp": "「Low-hanging fruit」の意味は？",
+          "correct_answer": "The easiest problems to solve or opportunities to seize",
+          "correct_answer_jp": "簡単に手に入るもの、容易な目標",
+          "distractors": [
+            "Fruit that is low",
+            "Difficult challenges",
+            "Expensive items"
+          ],
+          "distractors_jp": [
+            "低い果実",
+            "困難な課題",
+            "高価な品物"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: Let's start with the _____.",
+          "question_jp": "空欄を埋めてください：Let's start with the _____.",
+          "correct_answer": "low-hanging fruit",
+          "distractors": [
+            "high-hanging fruit",
+            "difficult challenges",
+            "complex problems"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'Low-hanging fruit'?",
+          "question_jp": "「Low-hanging fruit」はいつ使いますか？",
+          "correct_answer": "When starting with easy tasks",
+          "correct_answer_jp": "簡単な作業から始める時",
+          "distractors": [
+            "When doing difficult work",
+            "When avoiding work",
+            "When finishing work"
+          ],
+          "distractors_jp": [
+            "困難な作業をする時",
+            "作業を避ける時",
+            "作業を終える時"
+          ]
+        }
+      },
+      "Ping": {
+        "meaning": {
+          "question": "What does 'Ping' mean?",
+          "question_jp": "「Ping」の意味は？",
+          "correct_answer": "To send a quick message to someone",
+          "correct_answer_jp": "連絡する、メッセージを送る",
+          "distractors": [
+            "To make a sound",
+            "To ignore someone",
+            "To call loudly"
+          ],
+          "distractors_jp": [
+            "音を出す",
+            "誰かを無視する",
+            "大声で呼ぶ"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: I'll _____ you when I'm ready.",
+          "question_jp": "空欄を埋めてください：I'll _____ you when I'm ready.",
+          "correct_answer": "ping",
+          "distractors": [
+            "call",
+            "text",
+            "email"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'Ping'?",
+          "question_jp": "「Ping」はいつ使いますか？",
+          "correct_answer": "When sending a quick message",
+          "correct_answer_jp": "簡単なメッセージを送る時",
+          "distractors": [
+            "When making a phone call",
+            "When writing a long email",
+            "When having a meeting"
+          ],
+          "distractors_jp": [
+            "電話をかける時",
+            "長いメールを書く時",
+            "会議をする時"
+          ]
+        }
+      },
+      "Plug and play": {
+        "meaning": {
+          "question": "What does 'Plug and play' mean?",
+          "question_jp": "「Plug and play」の意味は？",
+          "correct_answer": "Something that is easy to use immediately",
+          "correct_answer_jp": "すぐに使える、簡単に導入できる",
+          "distractors": [
+            "To plug something in",
+            "To play a game",
+            "To make something complex"
+          ],
+          "distractors_jp": [
+            "何かを差し込む",
+            "ゲームをする",
+            "何かを複雑にする"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: This software is _____.",
+          "question_jp": "空欄を埋めてください：This software is _____.",
+          "correct_answer": "plug and play",
+          "distractors": [
+            "complex and difficult",
+            "expensive and rare",
+            "old and outdated"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'Plug and play'?",
+          "question_jp": "「Plug and play」はいつ使いますか？",
+          "correct_answer": "When something is easy to use immediately",
+          "correct_answer_jp": "何かがすぐに使える時",
+          "distractors": [
+            "When something is difficult",
+            "When something is complex",
+            "When something is broken"
+          ],
+          "distractors_jp": [
+            "何かが難しい時",
+            "何かが複雑な時",
+            "何かが壊れている時"
+          ]
+        }
+      },
+      "Spill the beans": {
+        "meaning": {
+          "question": "What does 'Spill the beans' mean?",
+          "question_jp": "「Spill the beans」の意味は？",
+          "correct_answer": "Reveal a secret",
+          "correct_answer_jp": "秘密を暴露する",
+          "distractors": [
+            "Spill actual beans",
+            "Hide information",
+            "Tell the truth"
+          ],
+          "distractors_jp": [
+            "豆をこぼす",
+            "情報を隠す",
+            "真実を話す"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: Who _____ about the surprise?",
+          "question_jp": "空欄を埋めてください：Who _____ about the surprise?",
+          "correct_answer": "Spilled the beans",
+          "distractors": [
+            "Spilled the news",
+            "Spilled the secret",
+            "Spilled the information"
+          ]
+        },
+        "context": {
+          "question": "What action does 'Spill the beans' describe?",
+          "question_jp": "「Spill the beans」はどのような行動を表しますか？",
+          "correct_answer": "Reveal a secret",
+          "correct_answer_jp": "秘密を暴露する",
+          "distractors": [
+            "Spill actual beans",
+            "Hide information",
+            "Tell the truth"
+          ],
+          "distractors_jp": [
+            "豆をこぼす",
+            "情報を隠す",
+            "真実を話す"
+          ]
+        }
+      }
+    },
+    "B2": {
+      "Cost an arm and a leg": {
+        "meaning": {
+          "question": "What does 'Cost an arm and a leg' mean?",
+          "question_jp": "「Cost an arm and a leg」の意味は？",
+          "correct_answer": "Very expensive",
+          "correct_answer_jp": "非常に高価",
+          "distractors": [
+            "Cheap",
+            "Reasonable price",
+            "Free"
+          ],
+          "distractors_jp": [
+            "安価",
+            "適正価格",
+            "無料"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: This car _____!",
+          "question_jp": "空欄を埋めてください：This car _____!",
+          "correct_answer": "Cost an arm and a leg",
+          "distractors": [
+            "Cost a lot",
+            "Cost everything",
+            "Cost a fortune"
+          ]
+        },
+        "context": {
+          "question": "What price does 'Cost an arm and a leg' describe?",
+          "question_jp": "「Cost an arm and a leg」はどのような価格を表しますか？",
+          "correct_answer": "Very expensive",
+          "correct_answer_jp": "非常に高価",
+          "distractors": [
+            "Cheap",
+            "Reasonable price",
+            "Free"
+          ],
+          "distractors_jp": [
+            "安価",
+            "適正価格",
+            "無料"
+          ]
+        }
+      },
+      "On cloud nine": {
+        "meaning": {
+          "question": "What does 'On cloud nine' mean?",
+          "question_jp": "「On cloud nine」の意味は？",
+          "correct_answer": "Very happy",
+          "correct_answer_jp": "非常に幸せ",
+          "distractors": [
+            "Sad",
+            "Angry",
+            "Worried"
+          ],
+          "distractors_jp": [
+            "悲しい",
+            "怒っている",
+            "心配している"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: She was _____ after getting the job.",
+          "question_jp": "空欄を埋めてください：She was _____ after getting the job.",
+          "correct_answer": "On cloud nine",
+          "distractors": [
+            "On cloud seven",
+            "On cloud ten",
+            "On cloud eight"
+          ]
+        },
+        "context": {
+          "question": "What emotion does 'On cloud nine' describe?",
+          "question_jp": "「On cloud nine」はどのような感情を表しますか？",
+          "correct_answer": "Very happy",
+          "correct_answer_jp": "非常に幸せ",
+          "distractors": [
+            "Sad",
+            "Angry",
+            "Worried"
+          ],
+          "distractors_jp": [
+            "悲しい",
+            "怒っている",
+            "心配している"
+          ]
+        }
+      },
+      "Add insult to injury": {
+        "meaning": {
+          "question": "What does 'Add insult to injury' mean?",
+          "question_jp": "「Add insult to injury」の意味は？",
+          "correct_answer": "To make a bad situation even worse",
+          "correct_answer_jp": "傷口に塩を塗る、さらに悪化させる",
+          "distractors": [
+            "To help someone",
+            "To make things better",
+            "To ignore problems"
+          ],
+          "distractors_jp": [
+            "誰かを助ける",
+            "物事を良くする",
+            "問題を無視する"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: First I lost my job, then to _____, my car broke down.",
+          "question_jp": "空欄を埋めてください：First I lost my job, then to _____, my car broke down.",
+          "correct_answer": "add insult to injury",
+          "distractors": [
+            "add help to support",
+            "add good to better",
+            "add hope to dreams"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'Add insult to injury'?",
+          "question_jp": "「Add insult to injury」はいつ使いますか？",
+          "correct_answer": "When a bad situation gets worse",
+          "correct_answer_jp": "悪い状況がさらに悪くなる時",
+          "distractors": [
+            "When things improve",
+            "When problems are solved",
+            "When everything is fine"
+          ],
+          "distractors_jp": [
+            "物事が改善する時",
+            "問題が解決される時",
+            "すべてが順調な時"
+          ]
+        }
+      },
+      "By the skin of your teeth": {
+        "meaning": {
+          "question": "What does 'By the skin of your teeth' mean?",
+          "question_jp": "「By the skin of your teeth」の意味は？",
+          "correct_answer": "Just barely; by a very small margin",
+          "correct_answer_jp": "かろうじて、ギリギリで",
+          "distractors": [
+            "With great ease",
+            "With plenty of time",
+            "With no effort"
+          ],
+          "distractors_jp": [
+            "非常に簡単に",
+            "十分な時間で",
+            "努力なしで"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: I passed the exam _____.",
+          "question_jp": "空欄を埋めてください：I passed the exam _____.",
+          "correct_answer": "by the skin of my teeth",
+          "distractors": [
+            "with flying colors",
+            "easily",
+            "comfortably"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'By the skin of your teeth'?",
+          "question_jp": "「By the skin of your teeth」はいつ使いますか？",
+          "correct_answer": "When succeeding by a very small margin",
+          "correct_answer_jp": "非常に小さな差で成功する時",
+          "distractors": [
+            "When failing completely",
+            "When succeeding easily",
+            "When not trying"
+          ],
+          "distractors_jp": [
+            "完全に失敗する時",
+            "簡単に成功する時",
+            "努力しない時"
+          ]
+        }
+      },
+      "Give someone the cold shoulder": {
+        "meaning": {
+          "question": "What does 'Give someone the cold shoulder' mean?",
+          "question_jp": "「Give someone the cold shoulder」の意味は？",
+          "correct_answer": "To ignore someone in an unfriendly way",
+          "correct_answer_jp": "冷たく扱う、無視する",
+          "distractors": [
+            "To help someone",
+            "To welcome someone",
+            "To hug someone"
+          ],
+          "distractors_jp": [
+            "誰かを助ける",
+            "誰かを歓迎する",
+            "誰かを抱きしめる"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: She _____ after our argument.",
+          "question_jp": "空欄を埋めてください：She _____ after our argument.",
+          "correct_answer": "gave me the cold shoulder",
+          "distractors": [
+            "gave me a warm hug",
+            "gave me help",
+            "gave me support"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'Give someone the cold shoulder'?",
+          "question_jp": "「Give someone the cold shoulder」はいつ使いますか？",
+          "correct_answer": "When ignoring someone unfriendly",
+          "correct_answer_jp": "誰かを冷たく無視する時",
+          "distractors": [
+            "When welcoming someone",
+            "When helping someone",
+            "When supporting someone"
+          ],
+          "distractors_jp": [
+            "誰かを歓迎する時",
+            "誰かを助ける時",
+            "誰かを支援する時"
+          ]
+        }
+      },
+      "Wrap your head around something": {
+        "meaning": {
+          "question": "What does 'Wrap your head around something' mean?",
+          "question_jp": "「Wrap your head around something」の意味は？",
+          "correct_answer": "To understand something complicated",
+          "correct_answer_jp": "理解する、把握する",
+          "distractors": [
+            "To ignore something",
+            "To forget something",
+            "To avoid something"
+          ],
+          "distractors_jp": [
+            "何かを無視する",
+            "何かを忘れる",
+            "何かを避ける"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: I can't _____ this math problem.",
+          "question_jp": "空欄を埋めてください：I can't _____ this math problem.",
+          "correct_answer": "wrap my head around",
+          "distractors": [
+            "understand easily",
+            "solve quickly",
+            "figure out"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'Wrap your head around something'?",
+          "question_jp": "「Wrap your head around something」はいつ使いますか？",
+          "correct_answer": "When trying to understand something complex",
+          "correct_answer_jp": "複雑なことを理解しようとする時",
+          "distractors": [
+            "When ignoring something",
+            "When avoiding something",
+            "When forgetting something"
+          ],
+          "distractors_jp": [
+            "何かを無視する時",
+            "何かを避ける時",
+            "何かを忘れる時"
+          ]
+        }
+      },
+      "Bandwidth": {
+        "meaning": {
+          "question": "What does 'Bandwidth' mean?",
+          "question_jp": "「Bandwidth」の意味は？",
+          "correct_answer": "To have or not have the capacity, time, or energy",
+          "correct_answer_jp": "能力、余裕",
+          "distractors": [
+            "Internet speed",
+            "Computer memory",
+            "Phone signal"
+          ],
+          "distractors_jp": [
+            "インターネット速度",
+            "コンピュータメモリ",
+            "電話信号"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: I don't have the _____ for another project.",
+          "question_jp": "空欄を埋めてください：I don't have the _____ for another project.",
+          "correct_answer": "bandwidth",
+          "distractors": [
+            "time",
+            "money",
+            "energy"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'Bandwidth'?",
+          "question_jp": "「Bandwidth」はいつ使いますか？",
+          "correct_answer": "When talking about capacity or availability",
+          "correct_answer_jp": "能力や余裕について話す時",
+          "distractors": [
+            "When talking about internet",
+            "When talking about computers",
+            "When talking about phones"
+          ],
+          "distractors_jp": [
+            "インターネットについて話す時",
+            "コンピュータについて話す時",
+            "電話について話す時"
+          ]
+        }
+      },
+      "Circle back": {
+        "meaning": {
+          "question": "What does 'Circle back' mean?",
+          "question_jp": "「Circle back」の意味は？",
+          "correct_answer": "To return to a topic or person later",
+          "correct_answer_jp": "後で戻る、再検討する",
+          "distractors": [
+            "To go in circles",
+            "To avoid something",
+            "To forget something"
+          ],
+          "distractors_jp": [
+            "円を描く",
+            "何かを避ける",
+            "何かを忘れる"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: Let's _____ to this issue next week.",
+          "question_jp": "空欄を埋めてください：Let's _____ to this issue next week.",
+          "correct_answer": "circle back",
+          "distractors": [
+            "go forward",
+            "move on",
+            "forget about"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'Circle back'?",
+          "question_jp": "「Circle back」はいつ使いますか？",
+          "correct_answer": "When returning to a topic later",
+          "correct_answer_jp": "後で話題に戻る時",
+          "distractors": [
+            "When avoiding a topic",
+            "When forgetting a topic",
+            "When ignoring a topic"
+          ],
+          "distractors_jp": [
+            "話題を避ける時",
+            "話題を忘れる時",
+            "話題を無視する時"
+          ]
+        }
+      },
+      "Drill down": {
+        "meaning": {
+          "question": "What does 'Drill down' mean?",
+          "question_jp": "「Drill down」の意味は？",
+          "correct_answer": "To investigate something in more detail",
+          "correct_answer_jp": "詳しく調べる、深掘りする",
+          "distractors": [
+            "To drill a hole",
+            "To go up",
+            "To avoid details"
+          ],
+          "distractors_jp": [
+            "穴を掘る",
+            "上に行く",
+            "詳細を避ける"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: Let's _____ into the data.",
+          "question_jp": "空欄を埋めてください：Let's _____ into the data.",
+          "correct_answer": "drill down",
+          "distractors": [
+            "look up",
+            "go over",
+            "skip through"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'Drill down'?",
+          "question_jp": "「Drill down」はいつ使いますか？",
+          "correct_answer": "When investigating in detail",
+          "correct_answer_jp": "詳細に調査する時",
+          "distractors": [
+            "When avoiding details",
+            "When skipping information",
+            "When ignoring data"
+          ],
+          "distractors_jp": [
+            "詳細を避ける時",
+            "情報を飛ばす時",
+            "データを無視する時"
+          ]
+        }
+      },
+      "Move the needle": {
+        "meaning": {
+          "question": "What does 'Move the needle' mean?",
+          "question_jp": "「Move the needle」の意味は？",
+          "correct_answer": "To make a noticeable difference or impact",
+          "correct_answer_jp": "変化をもたらす、影響を与える",
+          "distractors": [
+            "To move a needle",
+            "To avoid change",
+            "To stay the same"
+          ],
+          "distractors_jp": [
+            "針を動かす",
+            "変化を避ける",
+            "同じまま"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: This new feature will _____ for our users.",
+          "question_jp": "空欄を埋めてください：This new feature will _____ for our users.",
+          "correct_answer": "move the needle",
+          "distractors": [
+            "make no difference",
+            "stay the same",
+            "go backwards"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'Move the needle'?",
+          "question_jp": "「Move the needle」はいつ使いますか？",
+          "correct_answer": "When making a significant impact",
+          "correct_answer_jp": "重要な影響を与える時",
+          "distractors": [
+            "When making no change",
+            "When avoiding impact",
+            "When staying the same"
+          ],
+          "distractors_jp": [
+            "変化をもたらさない時",
+            "影響を避ける時",
+            "同じままの時"
+          ]
+        }
+      },
+      "Outside the box": {
+        "meaning": {
+          "question": "What does 'Outside the box' mean?",
+          "question_jp": "「Outside the box」の意味は？",
+          "correct_answer": "To think creatively or unconventionally",
+          "correct_answer_jp": "既成概念にとらわれない、創造的",
+          "distractors": [
+            "To stay in a box",
+            "To think normally",
+            "To follow rules"
+          ],
+          "distractors_jp": [
+            "箱の中にいる",
+            "普通に考える",
+            "ルールに従う"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: We need to think _____.",
+          "question_jp": "空欄を埋めてください：We need to think _____.",
+          "correct_answer": "outside the box",
+          "distractors": [
+            "inside the box",
+            "normally",
+            "traditionally"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'Outside the box'?",
+          "question_jp": "「Outside the box」はいつ使いますか？",
+          "correct_answer": "When thinking creatively",
+          "correct_answer_jp": "創造的に考える時",
+          "distractors": [
+            "When thinking normally",
+            "When following rules",
+            "When staying traditional"
+          ],
+          "distractors_jp": [
+            "普通に考える時",
+            "ルールに従う時",
+            "伝統的にする時"
+          ]
+        }
+      },
+      "Run it up the flagpole": {
+        "meaning": {
+          "question": "What does 'Run it up the flagpole' mean?",
+          "question_jp": "「Run it up the flagpole」の意味は？",
+          "correct_answer": "To propose an idea to see what kind of reaction it gets",
+          "correct_answer_jp": "試してみる、反応を見る",
+          "distractors": [
+            "To raise a flag",
+            "To avoid testing",
+            "To ignore feedback"
+          ],
+          "distractors_jp": [
+            "旗を上げる",
+            "テストを避ける",
+            "フィードバックを無視する"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: Let's _____ this idea.",
+          "question_jp": "空欄を埋めてください：Let's _____ this idea.",
+          "correct_answer": "run it up the flagpole",
+          "distractors": [
+            "ignore it",
+            "forget about it",
+            "avoid it"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'Run it up the flagpole'?",
+          "question_jp": "「Run it up the flagpole」はいつ使いますか？",
+          "correct_answer": "When testing an idea's reception",
+          "correct_answer_jp": "アイデアの反応をテストする時",
+          "distractors": [
+            "When ignoring an idea",
+            "When avoiding feedback",
+            "When forgetting an idea"
+          ],
+          "distractors_jp": [
+            "アイデアを無視する時",
+            "フィードバックを避ける時",
+            "アイデアを忘れる時"
+          ]
+        }
+      },
+      "Synergy": {
+        "meaning": {
+          "question": "What does 'Synergy' mean?",
+          "question_jp": "「Synergy」の意味は？",
+          "correct_answer": "The increased effectiveness that results when two or more people or companies work together",
+          "correct_answer_jp": "相乗効果、シナジー",
+          "distractors": [
+            "Individual effort",
+            "Competition",
+            "Conflict"
+          ],
+          "distractors_jp": [
+            "個人の努力",
+            "競争",
+            "対立"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: The merger created great _____.",
+          "question_jp": "空欄を埋めてください：The merger created great _____.",
+          "correct_answer": "synergy",
+          "distractors": [
+            "conflict",
+            "competition",
+            "individualism"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'Synergy'?",
+          "question_jp": "「Synergy」はいつ使いますか？",
+          "correct_answer": "When describing collaborative effectiveness",
+          "correct_answer_jp": "協力的な効果を説明する時",
+          "distractors": [
+            "When describing competition",
+            "When describing conflict",
+            "When describing individualism"
+          ],
+          "distractors_jp": [
+            "競争を説明する時",
+            "対立を説明する時",
+            "個人主義を説明する時"
+          ]
+        }
+      },
+      "Take it offline": {
+        "meaning": {
+          "question": "What does 'Take it offline' mean?",
+          "question_jp": "「Take it offline」の意味は？",
+          "correct_answer": "To discuss a matter in private",
+          "correct_answer_jp": "個別に話し合う、非公開で議論する",
+          "distractors": [
+            "To go offline",
+            "To ignore something",
+            "To avoid discussion"
+          ],
+          "distractors_jp": [
+            "オフラインになる",
+            "何かを無視する",
+            "議論を避ける"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: Let's _____ this discussion.",
+          "question_jp": "空欄を埋めてください：Let's _____ this discussion.",
+          "correct_answer": "take it offline",
+          "distractors": [
+            "ignore it",
+            "avoid it",
+            "forget about it"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'Take it offline'?",
+          "question_jp": "「Take it offline」はいつ使いますか？",
+          "correct_answer": "When discussing something privately",
+          "correct_answer_jp": "何かを個別に議論する時",
+          "distractors": [
+            "When avoiding discussion",
+            "When ignoring issues",
+            "When forgetting problems"
+          ],
+          "distractors_jp": [
+            "議論を避ける時",
+            "問題を無視する時",
+            "問題を忘れる時"
+          ]
+        }
+      },
+      "Once in a blue moon": {
+        "meaning": {
+          "question": "What does 'Once in a blue moon' mean?",
+          "question_jp": "「Once in a blue moon」の意味は？",
+          "correct_answer": "Very rarely",
+          "correct_answer_jp": "非常に稀",
+          "distractors": [
+            "Every day",
+            "Sometimes",
+            "Often"
+          ],
+          "distractors_jp": [
+            "毎日",
+            "時々",
+            "よく"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: I see him _____.",
+          "question_jp": "空欄を埋めてください：I see him _____.",
+          "correct_answer": "Once in a blue moon",
+          "distractors": [
+            "Once in a while",
+            "Once in a month",
+            "Once in a year"
+          ]
+        },
+        "context": {
+          "question": "What frequency does 'Once in a blue moon' describe?",
+          "question_jp": "「Once in a blue moon」はどのような頻度を表しますか？",
+          "correct_answer": "Very rarely",
+          "correct_answer_jp": "非常に稀",
+          "distractors": [
+            "Every day",
+            "Sometimes",
+            "Often"
+          ],
+          "distractors_jp": [
+            "毎日",
+            "時々",
+            "よく"
+          ]
+        }
+      }
+    },
+    "C1": {
+      "Hit the nail on the head": {
+        "meaning": {
+          "question": "What does 'Hit the nail on the head' mean?",
+          "question_jp": "「Hit the nail on the head」の意味は？",
+          "correct_answer": "Analysis that hits the core issue",
+          "correct_answer_jp": "核心を突いた分析",
+          "distractors": [
+            "Superficial analysis",
+            "Incorrect analysis",
+            "Incomplete analysis"
+          ],
+          "distractors_jp": [
+            "表面的な分析",
+            "間違った分析",
+            "不完全な分析"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: You really _____ with that analysis.",
+          "question_jp": "空欄を埋めてください：You really _____ with that analysis.",
+          "correct_answer": "Hit the nail on the head",
+          "distractors": [
+            "Hit the point",
+            "Hit the target",
+            "Hit the mark"
+          ]
+        },
+        "context": {
+          "question": "What type of analysis does 'Hit the nail on the head' describe?",
+          "question_jp": "「Hit the nail on the head」はどのような分析を表しますか？",
+          "correct_answer": "Analysis that hits the core issue",
+          "correct_answer_jp": "核心を突いた分析",
+          "distractors": [
+            "Superficial analysis",
+            "Incorrect analysis",
+            "Incomplete analysis"
+          ],
+          "distractors_jp": [
+            "表面的な分析",
+            "間違った分析",
+            "不完全な分析"
+          ]
+        }
+      },
+      "Bite the bullet": {
+        "meaning": {
+          "question": "What does 'Bite the bullet' mean?",
+          "question_jp": "「Bite the bullet」の意味は？",
+          "correct_answer": "Accepting difficult circumstances",
+          "correct_answer_jp": "困難を受け入れる覚悟",
+          "distractors": [
+            "Avoiding difficulties",
+            "Giving up",
+            "Running away"
+          ],
+          "distractors_jp": [
+            "困難を避ける",
+            "諦める",
+            "逃げる"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: I'll just _____ and do it.",
+          "question_jp": "空欄を埋めてください：I'll just _____ and do it.",
+          "correct_answer": "Bite the bullet",
+          "distractors": [
+            "Bite the dust",
+            "Bite the tongue",
+            "Bite the lip"
+          ]
+        },
+        "context": {
+          "question": "What attitude does 'Bite the bullet' describe?",
+          "question_jp": "「Bite the bullet」はどのような態度を表しますか？",
+          "correct_answer": "Accepting difficult circumstances",
+          "correct_answer_jp": "困難を受け入れる覚悟",
+          "distractors": [
+            "Avoiding difficulties",
+            "Giving up",
+            "Running away"
+          ],
+          "distractors_jp": [
+            "困難を避ける",
+            "諦める",
+            "逃げる"
+          ]
+        }
+      },
+      "Ahead of the curve": {
+        "meaning": {
+          "question": "What does 'Ahead of the curve' mean?",
+          "question_jp": "「Ahead of the curve」の意味は？",
+          "correct_answer": "More advanced or innovative than others",
+          "correct_answer_jp": "他より進歩的、革新的",
+          "distractors": [
+            "Behind others",
+            "Same as others",
+            "Following others"
+          ],
+          "distractors_jp": [
+            "他より遅れている",
+            "他と同じ",
+            "他に従っている"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: Our company is _____ in technology.",
+          "question_jp": "空欄を埋めてください：Our company is _____ in technology.",
+          "correct_answer": "ahead of the curve",
+          "distractors": [
+            "behind the curve",
+            "on the curve",
+            "with the curve"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'Ahead of the curve'?",
+          "question_jp": "「Ahead of the curve」はいつ使いますか？",
+          "correct_answer": "When being more advanced than others",
+          "correct_answer_jp": "他より進歩的である時",
+          "distractors": [
+            "When being behind others",
+            "When being the same as others",
+            "When following others"
+          ],
+          "distractors_jp": [
+            "他より遅れている時",
+            "他と同じである時",
+            "他に従っている時"
+          ]
+        }
+      },
+      "Bleeding edge": {
+        "meaning": {
+          "question": "What does 'Bleeding edge' mean?",
+          "question_jp": "「Bleeding edge」の意味は？",
+          "correct_answer": "The very forefront of technological development",
+          "correct_answer_jp": "技術開発の最先端",
+          "distractors": [
+            "Old technology",
+            "Stable technology",
+            "Proven technology"
+          ],
+          "distractors_jp": [
+            "古い技術",
+            "安定した技術",
+            "実証済みの技術"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: This is _____ technology.",
+          "question_jp": "空欄を埋めてください：This is _____ technology.",
+          "correct_answer": "bleeding edge",
+          "distractors": [
+            "cutting edge",
+            "old fashioned",
+            "proven"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'Bleeding edge'?",
+          "question_jp": "「Bleeding edge」はいつ使いますか？",
+          "correct_answer": "When describing the most advanced technology",
+          "correct_answer_jp": "最も先進的な技術を説明する時",
+          "distractors": [
+            "When describing old technology",
+            "When describing stable technology",
+            "When describing proven technology"
+          ],
+          "distractors_jp": [
+            "古い技術を説明する時",
+            "安定した技術を説明する時",
+            "実証済みの技術を説明する時"
+          ]
+        }
+      },
+      "Push the envelope": {
+        "meaning": {
+          "question": "What does 'Push the envelope' mean?",
+          "question_jp": "「Push the envelope」の意味は？",
+          "correct_answer": "To go beyond the usual limits; to innovate or experiment",
+          "correct_answer_jp": "限界を超える、革新する",
+          "distractors": [
+            "To stay within limits",
+            "To follow rules",
+            "To avoid risks"
+          ],
+          "distractors_jp": [
+            "限界内に留まる",
+            "ルールに従う",
+            "リスクを避ける"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: We need to _____ with this design.",
+          "question_jp": "空欄を埋めてください：We need to _____ with this design.",
+          "correct_answer": "push the envelope",
+          "distractors": [
+            "stay within limits",
+            "follow tradition",
+            "avoid risks"
+          ]
+        },
+        "context": {
+          "question": "When do you use 'Push the envelope'?",
+          "question_jp": "「Push the envelope」はいつ使いますか？",
+          "correct_answer": "When going beyond usual limits",
+          "correct_answer_jp": "通常の限界を超える時",
+          "distractors": [
+            "When staying within limits",
+            "When following rules",
+            "When avoiding risks"
+          ],
+          "distractors_jp": [
+            "限界内に留まる時",
+            "ルールに従う時",
+            "リスクを避ける時"
+          ]
+        }
+      },
+      "Bend over backwards": {
+        "meaning": {
+          "question": "What does 'Bend over backwards' mean?",
+          "question_jp": "「Bend over backwards」の意味は？",
+          "correct_answer": "Maximum effort",
+          "correct_answer_jp": "最大限の努力",
+          "distractors": [
+            "Minimal effort",
+            "Normal effort",
+            "Laziness"
+          ],
+          "distractors_jp": [
+            "最小限の努力",
+            "普通の努力",
+            "怠慢"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: I'll _____ to help you.",
+          "question_jp": "空欄を埋めてください：I'll _____ to help you.",
+          "correct_answer": "Bend over backwards",
+          "distractors": [
+            "Bend over forwards",
+            "Bend over sideways",
+            "Bend over up"
+          ]
+        },
+        "context": {
+          "question": "What type of effort does 'Bend over backwards' describe?",
+          "question_jp": "「Bend over backwards」はどのような努力を表しますか？",
+          "correct_answer": "Maximum effort",
+          "correct_answer_jp": "最大限の努力",
+          "distractors": [
+            "Minimal effort",
+            "Normal effort",
+            "Laziness"
+          ],
+          "distractors_jp": [
+            "最小限の努力",
+            "普通の努力",
+            "怠慢"
+          ]
+        }
+      }
+    },
+    "C2": {
+      "Break the ice": {
+        "meaning": {
+          "question": "What does 'Break the ice' mean?",
+          "question_jp": "「Break the ice」の意味は？",
+          "correct_answer": "Easing a tense situation",
+          "correct_answer_jp": "緊張した場面を和らげる",
+          "distractors": [
+            "Breaking actual ice",
+            "Starting a fight",
+            "Creating silence"
+          ],
+          "distractors_jp": [
+            "氷を割る",
+            "喧嘩を始める",
+            "静寂を作る"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: Let me _____ by introducing myself.",
+          "question_jp": "空欄を埋めてください：Let me _____ by introducing myself.",
+          "correct_answer": "Break the ice",
+          "distractors": [
+            "Break the silence",
+            "Break the tension",
+            "Break the mood"
+          ]
+        },
+        "context": {
+          "question": "In what situation would you use 'Break the ice'?",
+          "question_jp": "「Break the ice」はどのような状況で使われますか？",
+          "correct_answer": "Easing a tense situation",
+          "correct_answer_jp": "緊張した場面を和らげる",
+          "distractors": [
+            "Breaking actual ice",
+            "Starting a fight",
+            "Creating silence"
+          ],
+          "distractors_jp": [
+            "氷を割る",
+            "喧嘩を始める",
+            "静寂を作る"
+          ]
+        }
+      },
+      "Butterflies in your stomach": {
+        "meaning": {
+          "question": "What does 'Butterflies in your stomach' mean?",
+          "question_jp": "「Butterflies in your stomach」の意味は？",
+          "correct_answer": "Nervousness or anxiety",
+          "correct_answer_jp": "緊張や不安",
+          "distractors": [
+            "Hunger",
+            "Anger",
+            "Joy"
+          ],
+          "distractors_jp": [
+            "空腹感",
+            "怒り",
+            "喜び"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: I have _____ before the presentation.",
+          "question_jp": "空欄を埋めてください：I have _____ before the presentation.",
+          "correct_answer": "Butterflies in my stomach",
+          "distractors": [
+            "Bees in my stomach",
+            "Birds in my stomach",
+            "Bugs in my stomach"
+          ]
+        },
+        "context": {
+          "question": "What emotion does 'Butterflies in your stomach' describe?",
+          "question_jp": "「Butterflies in your stomach」はどのような感情を表しますか？",
+          "correct_answer": "Nervousness or anxiety",
+          "correct_answer_jp": "緊張や不安",
+          "distractors": [
+            "Hunger",
+            "Anger",
+            "Joy"
+          ],
+          "distractors_jp": [
+            "空腹感",
+            "怒り",
+            "喜び"
+          ]
+        }
+      },
+      "By the book": {
+        "meaning": {
+          "question": "What does 'By the book' mean?",
+          "question_jp": "「By the book」の意味は？",
+          "correct_answer": "Following rules exactly",
+          "correct_answer_jp": "規則通りに従う",
+          "distractors": [
+            "Reading a book",
+            "Acting freely",
+            "Ignoring rules"
+          ],
+          "distractors_jp": [
+            "本を読む",
+            "自由に行動する",
+            "規則を無視する"
+          ]
+        },
+        "fill_blank": {
+          "question": "Fill in the blank: We need to do this _____.",
+          "question_jp": "空欄を埋めてください：We need to do this _____.",
+          "correct_answer": "By the book",
+          "distractors": [
+            "By the rules",
+            "By the law",
+            "By the manual"
+          ]
+        },
+        "context": {
+          "question": "What method does 'By the book' describe?",
+          "question_jp": "「By the book」はどのような方法を表しますか？",
+          "correct_answer": "Following rules exactly",
+          "correct_answer_jp": "規則通りに従う",
+          "distractors": [
+            "Reading a book",
+            "Acting freely",
+            "Ignoring rules"
+          ],
+          "distractors_jp": [
+            "本を読む",
+            "自由に行動する",
+            "規則を無視する"
+          ]
+        }
+      }
+    }
+  }
+} 
