@@ -200,8 +200,9 @@ struct QuizView: View {
             let questionTypes: [QuizQuestionType] = [.meaning, .fillBlank, .context]
             
             for questionType in questionTypes {
-                let question = createQuestion(for: idiom, type: questionType, level: level)
-                questions.append(question)
+                if let question = createQuestion(for: idiom, type: questionType, level: level) {
+                    questions.append(question)
+                }
             }
         }
         
@@ -209,7 +210,7 @@ struct QuizView: View {
         return questions.shuffled().prefix(questionCount).map { $0 }
     }
     
-    private func createQuestion(for idiom: Idiom, type: QuizQuestionType, level: String? = nil) -> QuizQuestion {
+    private func createQuestion(for idiom: Idiom, type: QuizQuestionType, level: String? = nil) -> QuizQuestion? {
         switch type {
         case .meaning:
             return createMeaningQuestion(for: idiom, level: level)
@@ -220,9 +221,9 @@ struct QuizView: View {
         }
     }
     
-    private func createMeaningQuestion(for idiom: Idiom, level: String?) -> QuizQuestion {
-        let question = languageService.isJapanese ? 
-            "「\(idiom.title)」の意味は？" : 
+    private func createMeaningQuestion(for idiom: Idiom, level: String?) -> QuizQuestion? {
+        let question = languageService.isJapanese ?
+            "「\(idiom.title)」の意味は？" :
             "What does '\(idiom.title)' mean?"
         
         let correctAnswer = idiom.jpMeaning
@@ -241,12 +242,15 @@ struct QuizView: View {
         )
     }
     
-    private func createFillBlankQuestion(for idiom: Idiom, level: String?) -> QuizQuestion {
-        let example = idiom.examples.first ?? Example(english: "", japanese: "", tone: "casual")
+    private func createFillBlankQuestion(for idiom: Idiom, level: String?) -> QuizQuestion? {
+        guard let example = idiom.examples.first, !example.english.isEmpty else {
+            return nil
+        }
+
         let blankedText = example.english.replacingOccurrences(of: idiom.title, with: "_____")
         
-        let question = languageService.isJapanese ? 
-            "空欄を埋めてください：\(blankedText)" : 
+        let question = languageService.isJapanese ?
+            "空欄を埋めてください：\(blankedText)" :
             "Fill in the blank: \(blankedText)"
         
         let correctAnswer = idiom.title
@@ -263,7 +267,7 @@ struct QuizView: View {
         )
     }
     
-    private func createContextQuestion(for idiom: Idiom, level: String?) -> QuizQuestion {
+    private func createContextQuestion(for idiom: Idiom, level: String?) -> QuizQuestion? {
         // Create more sophisticated context questions based on level
         let (question, correctAnswer, distractors) = createContextQuestionContent(for: idiom, level: level)
         
@@ -911,6 +915,7 @@ struct QuizResultsView: View {
     let score: Int
     let totalQuestions: Int
     let onRetry: () -> Void
+    @State private var showConfetti = false
     
     private var percentage: Double {
         guard totalQuestions > 0 else { return 0 }
@@ -920,8 +925,10 @@ struct QuizResultsView: View {
     private var message: String {
         if languageService.isJapanese {
             switch percentage {
-            case 80...100:
-                return "素晴らしい！完璧です！"
+            case 100:
+                return "完璧です！素晴らしい！"
+            case 80..<100:
+                return "素晴らしい！"
             case 60..<80:
                 return "よくできました！"
             case 40..<60:
@@ -931,8 +938,10 @@ struct QuizResultsView: View {
             }
         } else {
             switch percentage {
-            case 80...100:
-                return "Excellent! Perfect score!"
+            case 100:
+                return "Perfect score! Absolutely brilliant!"
+            case 80..<100:
+                return "Excellent!"
             case 60..<80:
                 return "Well done!"
             case 40..<60:
@@ -945,17 +954,17 @@ struct QuizResultsView: View {
     
     var body: some View {
         VStack(spacing: 24) {
-            Image(systemName: percentage >= 60 ? "star.fill" : "star")
+            Image(systemName: percentage == 100 ? "crown.fill" : (percentage >= 60 ? "star.fill" : "star"))
                 .font(.system(size: 64))
-                .foregroundColor(percentage >= 60 ? .yellow : .gray)
+                .foregroundColor(percentage == 100 ? .yellow : (percentage >= 60 ? .yellow : .gray))
             
             Text(languageService.quizCompleteTitle)
                 .font(.title)
                 .fontWeight(.bold)
             
             VStack(spacing: 8) {
-                Text(languageService.isJapanese ? 
-                     "\(score)/\(totalQuestions) 正解" : 
+                Text(languageService.isJapanese ?
+                     "\(score)/\(totalQuestions) 正解" :
                      "\(score)/\(totalQuestions) correct")
                     .font(.title2)
                     .fontWeight(.semibold)
@@ -978,9 +987,13 @@ struct QuizResultsView: View {
         }
         .padding()
         .onAppear {
+            if percentage == 100 {
+                showConfetti = true
+            }
             // Record quiz completion
             userProgressService.recordQuizCompletion()
         }
+        .confettiCannon(isAnimating: $showConfetti)
     }
 }
 

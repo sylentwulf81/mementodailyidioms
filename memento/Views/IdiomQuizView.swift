@@ -370,6 +370,7 @@ struct IdiomQuizResultsView: View {
     let onFinish: () -> Void
     @EnvironmentObject private var languageService: LanguageService
     @EnvironmentObject private var userProgressService: UserProgressService
+    @State private var showConfetti = false
     
     private var percentage: Double {
         guard totalQuestions > 0 else { return 0 }
@@ -379,8 +380,10 @@ struct IdiomQuizResultsView: View {
     private var message: String {
         if languageService.isJapanese {
             switch percentage {
-            case 80...100:
-                return "素晴らしい！完璧です！"
+            case 100:
+                return "完璧です！素晴らしい！"
+            case 80..<100:
+                return "素晴らしい！"
             case 60..<80:
                 return "よくできました！"
             case 40..<60:
@@ -390,8 +393,10 @@ struct IdiomQuizResultsView: View {
             }
         } else {
             switch percentage {
-            case 80...100:
-                return "Excellent! Perfect score!"
+            case 100:
+                return "Perfect score! Absolutely brilliant!"
+            case 80..<100:
+                return "Excellent!"
             case 60..<80:
                 return "Well done!"
             case 40..<60:
@@ -409,14 +414,14 @@ struct IdiomQuizResultsView: View {
     var body: some View {
         VStack(spacing: 24) {
             // Result icon
-            Image(systemName: percentage >= 60 ? "star.fill" : "star")
+            Image(systemName: percentage == 100 ? "crown.fill" : (percentage >= 60 ? "star.fill" : "star"))
                 .font(.system(size: 64))
-                .foregroundColor(percentage >= 60 ? .yellow : .gray)
-            
+                .foregroundColor(percentage == 100 ? .yellow : (percentage >= 60 ? .yellow : .gray))
+
             // Score display
             VStack(spacing: 8) {
-                Text(languageService.isJapanese ? 
-                     "\(score)/\(totalQuestions) 正解" : 
+                Text(languageService.isJapanese ?
+                     "\(score)/\(totalQuestions) 正解" :
                      "\(score)/\(totalQuestions) correct")
                     .font(.title2)
                     .fontWeight(.semibold)
@@ -437,8 +442,8 @@ struct IdiomQuizResultsView: View {
                 HStack {
                     Image(systemName: "trophy.fill")
                         .foregroundColor(.yellow)
-                    Text(languageService.isJapanese ? 
-                         "新しい記録！" : 
+                    Text(languageService.isJapanese ?
+                         "新しい記録！" :
                          "New record!")
                         .font(.subheadline)
                         .fontWeight(.semibold)
@@ -467,11 +472,15 @@ struct IdiomQuizResultsView: View {
         }
         .padding()
         .onAppear {
+            if percentage == 100 {
+                showConfetti = true
+            }
             // Record that this idiom has been learned if the user passed the quiz (60% or higher)
             if percentage >= 60 {
                 userProgressService.recordLearnedIdiom(idiom.id)
             }
         }
+        .confettiCannon(isAnimating: $showConfetti)
     }
 }
 
