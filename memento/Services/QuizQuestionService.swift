@@ -131,25 +131,26 @@ class QuizQuestionService: ObservableObject {
         ))
         
         // Fill blank question
-        let example = idiom.examples.first ?? Example(english: "", japanese: "", tone: "casual")
-        let blankedText = example.english.replacingOccurrences(of: idiom.title, with: "_____")
-        
-        let fillBlankQuestion = languageService.isJapanese ? 
-            "空欄を埋めてください：\(blankedText)" : 
-            "Fill in the blank: \(blankedText)"
-        
-        let fillBlankCorrectAnswer = idiom.title
-        let fillBlankDistractors = generateFillBlankDistractors(for: idiom, languageService: languageService)
-        
-        let fillBlankOptions = ([fillBlankCorrectAnswer] + fillBlankDistractors).shuffled()
-        let fillBlankCorrectIndex = fillBlankOptions.firstIndex(of: fillBlankCorrectAnswer) ?? 0
-        
-        questions.append(IdiomQuizQuestion(
-            question: fillBlankQuestion,
-            options: fillBlankOptions,
-            correctAnswer: fillBlankCorrectIndex,
-            type: .fillBlank
-        ))
+        if let example = idiom.examples.first, !example.english.isEmpty {
+            let blankedText = example.english.replacingOccurrences(of: idiom.title, with: "_____")
+
+            let fillBlankQuestion = languageService.isJapanese ?
+                "空欄を埋めてください：\(blankedText)" :
+                "Fill in the blank: \(blankedText)"
+
+            let fillBlankCorrectAnswer = idiom.title
+            let fillBlankDistractors = generateFillBlankDistractors(for: idiom, languageService: languageService)
+
+            let fillBlankOptions = ([fillBlankCorrectAnswer] + fillBlankDistractors).shuffled()
+            let fillBlankCorrectIndex = fillBlankOptions.firstIndex(of: fillBlankCorrectAnswer) ?? 0
+
+            questions.append(IdiomQuizQuestion(
+                question: fillBlankQuestion,
+                options: fillBlankOptions,
+                correctAnswer: fillBlankCorrectIndex,
+                type: .fillBlank
+            ))
+        }
         
         // Context question
         let contextQuestion = languageService.isJapanese ? 
