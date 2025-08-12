@@ -93,8 +93,18 @@ class QuizQuestionService: ObservableObject {
         languageService: LanguageService
     ) -> IdiomQuizQuestion {
         let question = languageService.isJapanese ? data.question_jp : data.question
-        let correctAnswer = languageService.isJapanese ? data.correct_answer_jp : data.correct_answer
-        let distractors = languageService.isJapanese ? data.distractors_jp : data.distractors
+
+        var correctAnswer: String
+        var distractors: [String]
+
+        switch type {
+        case .meaning, .context:
+            correctAnswer = data.correct_answer_jp
+            distractors = data.distractors_jp
+        case .fillBlank:
+            correctAnswer = data.correct_answer
+            distractors = data.distractors
+        }
         
         let allOptions = ([correctAnswer] + distractors).shuffled()
         let correctIndex = allOptions.firstIndex(of: correctAnswer) ?? 0
@@ -117,8 +127,8 @@ class QuizQuestionService: ObservableObject {
             "「\(idiom.title)」の意味は？" : 
             "What does '\(idiom.title)' mean?"
         
-        let correctAnswer = languageService.isJapanese ? idiom.jpMeaning : idiom.enMeaning
-        let distractors = generateMeaningDistractors(for: idiom, languageService: languageService)
+        let correctAnswer = idiom.jpMeaning
+        let distractors = generateMeaningDistractors(for: idiom)
         
         let meaningOptions = ([correctAnswer] + distractors).shuffled()
         let meaningCorrectIndex = meaningOptions.firstIndex(of: correctAnswer) ?? 0
@@ -139,7 +149,7 @@ class QuizQuestionService: ObservableObject {
                 "Fill in the blank: \(blankedText)"
 
             let fillBlankCorrectAnswer = idiom.title
-            let fillBlankDistractors = generateFillBlankDistractors(for: idiom, languageService: languageService)
+            let fillBlankDistractors = generateFillBlankDistractors(for: idiom)
 
             let fillBlankOptions = ([fillBlankCorrectAnswer] + fillBlankDistractors).shuffled()
             let fillBlankCorrectIndex = fillBlankOptions.firstIndex(of: fillBlankCorrectAnswer) ?? 0
@@ -157,18 +167,12 @@ class QuizQuestionService: ObservableObject {
             "「\(idiom.title)」はどのような場面で使われますか？" : 
             "In what context would you use '\(idiom.title)'?"
         
-        let contextCorrectAnswer = languageService.isJapanese ? 
-            "励ましの場面" : 
-            "Encouraging someone"
+        let contextCorrectAnswer = "励ましの場面"
         
-        let contextDistractors = languageService.isJapanese ? [
+        let contextDistractors = [
             "怒りの場面",
             "悲しみの場面",
             "喜びの場面"
-        ] : [
-            "Expressing anger",
-            "Expressing sadness",
-            "Expressing joy"
         ]
         
         let contextOptions = ([contextCorrectAnswer] + contextDistractors).shuffled()
@@ -184,22 +188,20 @@ class QuizQuestionService: ObservableObject {
         return questions.shuffled()
     }
     
-    private func generateMeaningDistractors(for idiom: Idiom, languageService: LanguageService) -> [String] {
+    private func generateMeaningDistractors(for idiom: Idiom) -> [String] {
         // Get other idioms to use as distractors
         let dailyIdiomService = DailyIdiomService()
         let allIdioms = dailyIdiomService.loadIdioms()
-        let otherIdioms = allIdioms.filter { $0.id != idiom.id }
+        let otherIdioms = allIdioms.filter { $0.id != idiom.id && $0.title != idiom.title }
         
-        return otherIdioms.shuffled().prefix(3).map { 
-            languageService.isJapanese ? $0.jpMeaning : $0.enMeaning 
-        }
+        return otherIdioms.shuffled().prefix(3).map { $0.jpMeaning }
     }
     
-    private func generateFillBlankDistractors(for idiom: Idiom, languageService: LanguageService) -> [String] {
+    private func generateFillBlankDistractors(for idiom: Idiom) -> [String] {
         // Get other idioms to use as distractors
         let dailyIdiomService = DailyIdiomService()
         let allIdioms = dailyIdiomService.loadIdioms()
-        let otherIdioms = allIdioms.filter { $0.id != idiom.id }
+        let otherIdioms = allIdioms.filter { $0.id != idiom.id && $0.title != idiom.title }
         
         return otherIdioms.shuffled().prefix(3).map { $0.title }
     }

@@ -230,12 +230,12 @@
           "correct_answer": "Good luck!",
           "correct_answer_jp": "頑張って！成功を祈る！",
           "distractors": [
-            "Break your leg",
+            "Be careful",
             "Get hurt",
             "Run away"
           ],
           "distractors_jp": [
-            "足を折る",
+            "気をつけて",
             "怪我をする",
             "逃げる"
           ]
@@ -319,12 +319,12 @@
           "correct_answer_jp": "出発する、旅に出る",
           "distractors": [
             "To drive a car",
-            "To walk on the road",
+            "Paving a new street",
             "To repair the road"
           ],
           "distractors_jp": [
             "車を運転する",
-            "道路を歩く",
+            "新しい通りを舗装する",
             "道路を修理する"
           ]
         },
@@ -362,12 +362,12 @@
           "correct_answer": "To watch carefully",
           "correct_answer_jp": "注意深く見守る、監視する",
           "distractors": [
-            "To close your eyes",
+            "Having good vision",
             "To look away",
             "To ignore something"
           ],
           "distractors_jp": [
-            "目を閉じる",
+            "視力が良い",
             "目をそらす",
             "何かを無視する"
           ]
@@ -406,12 +406,12 @@
           "correct_answer": "Raining very heavily",
           "correct_answer_jp": "土砂降りの雨",
           "distractors": [
-            "Animals falling from sky",
+            "A pet store",
             "Light rain",
             "No rain at all"
           ],
           "distractors_jp": [
-            "動物が空から降る",
+            "ペットショップ",
             "小雨",
             "全く雨が降らない"
           ]
@@ -428,7 +428,7 @@
         },
         "context": {
           "question": "When do you say 'Raining cats and dogs'?",
-          "question_jp": "「Raining cats and dogs」はいつ言いますか？",
+          "question_jp": "「Raining cats and dogs」はいつ使いますか？",
           "correct_answer": "When it's raining very heavily",
           "correct_answer_jp": "非常に激しく雨が降っている時",
           "distractors": [
@@ -450,12 +450,12 @@
           "correct_answer": "The person who arrives first has the best chance of success",
           "correct_answer_jp": "早く行動する人が成功する",
           "distractors": [
-            "Birds eat worms",
+            "Feeding birds",
             "Worms are important",
             "Birds are early"
           ],
           "distractors_jp": [
-            "鳥は虫を食べる",
+            "鳥に餌をやる",
             "虫は重要だ",
             "鳥は早い"
           ]
@@ -540,12 +540,12 @@
           "correct_answer": "Study hard",
           "correct_answer_jp": "一生懸命勉強する",
           "distractors": [
-            "Throw books",
+            "Read a novel",
             "Go to the library",
             "Buy books"
           ],
           "distractors_jp": [
-            "本を投げる",
+            "小説を読む",
             "図書館に行く",
             "本を買う"
           ]
@@ -566,12 +566,12 @@
           "correct_answer": "Study hard",
           "correct_answer_jp": "一生懸命勉強する",
           "distractors": [
-            "Throw books",
+            "Read a novel",
             "Go to the library",
             "Buy books"
           ],
           "distractors_jp": [
-            "本を投げる",
+            "小説を読む",
             "図書館に行く",
             "本を買う"
           ]
@@ -584,12 +584,12 @@
           "correct_answer": "Reveal a secret",
           "correct_answer_jp": "秘密を漏らす",
           "distractors": [
-            "Let a cat escape",
+            "Buy a new pet",
             "Open a bag",
             "Keep a secret"
           ],
           "distractors_jp": [
-            "猫を逃がす",
+            "新しいペットを買う",
             "袋を開ける",
             "秘密を守る"
           ]
@@ -610,12 +610,12 @@
           "correct_answer": "Reveal a secret",
           "correct_answer_jp": "秘密を漏らす",
           "distractors": [
-            "Let a cat escape",
+            "Buy a new pet",
             "Open a bag",
             "Keep a secret"
           ],
           "distractors_jp": [
-            "猫を逃がす",
+            "新しいペットを買う",
             "袋を開ける",
             "秘密を守る"
           ]
@@ -628,12 +628,12 @@
           "correct_answer": "Immediately; without hesitation",
           "correct_answer_jp": "すぐに、即座に",
           "distractors": [
-            "When a hat falls",
+            "Wearing a new hat",
             "Slowly and carefully",
             "After thinking"
           ],
           "distractors_jp": [
-            "帽子が落ちた時",
+            "新しい帽子をかぶる時",
             "ゆっくりと慎重に",
             "考えた後"
           ]
@@ -672,12 +672,12 @@
           "correct_answer": "To become out of control",
           "correct_answer_jp": "手に負えなくなる、制御不能になる",
           "distractors": [
-            "To lose your hand",
+            "Waving goodbye",
             "To wash your hands",
             "To raise your hand"
           ],
           "distractors_jp": [
-            "手を失う",
+            "手を振ってさよならする",
             "手を洗う",
             "手を上げる"
           ]
@@ -716,12 +716,12 @@
           "correct_answer": "In summary; very briefly",
           "correct_answer_jp": "要約すると、簡潔に言うと",
           "distractors": [
-            "Inside a nut",
+            "Eating a snack",
             "In great detail",
             "In a long story"
           ],
           "distractors_jp": [
-            "ナッツの中に",
+            "おやつを食べる",
             "詳細に",
             "長い話で"
           ]
@@ -760,12 +760,12 @@
           "correct_answer": "It's not difficult or complicated",
           "correct_answer_jp": "そんなに難しくない、簡単だ",
           "distractors": [
-            "It's about rockets",
+            "Studying astrophysics",
             "It's very difficult",
             "It's scientific"
           ],
           "distractors_jp": [
-            "ロケットについて",
+            "天体物理学を勉強する",
             "非常に難しい",
             "科学的だ"
           ]
@@ -804,12 +804,12 @@
           "correct_answer": "To achieve two goals with a single action",
           "correct_answer_jp": "一石二鳥",
           "distractors": [
-            "To hurt animals",
-            "To throw stones",
+            "Going hunting",
+            "Throwing stones",
             "To do one thing"
           ],
           "distractors_jp": [
-            "動物を傷つける",
+            "狩りに行く",
             "石を投げる",
             "一つのことをする"
           ]
@@ -848,12 +848,12 @@
           "correct_answer": "To agree completely",
           "correct_answer_jp": "意見が一致する、同じ見解を持つ",
           "distractors": [
-            "To look at each other",
+            "Having good vision",
             "To disagree",
             "To argue"
           ],
           "distractors_jp": [
-            "お互いを見る",
+            "視力が良い",
             "意見が合わない",
             "議論する"
           ]
@@ -936,12 +936,12 @@
           "correct_answer": "The easiest problems to solve or opportunities to seize",
           "correct_answer_jp": "簡単に手に入るもの、容易な目標",
           "distractors": [
-            "Fruit that is low",
+            "Picking apples",
             "Difficult challenges",
             "Expensive items"
           ],
           "distractors_jp": [
-            "低い果実",
+            "リンゴ狩り",
             "困難な課題",
             "高価な品物"
           ]
@@ -980,12 +980,12 @@
           "correct_answer": "To send a quick message to someone",
           "correct_answer_jp": "連絡する、メッセージを送る",
           "distractors": [
-            "To make a sound",
+            "Playing table tennis",
             "To ignore someone",
             "To call loudly"
           ],
           "distractors_jp": [
-            "音を出す",
+            "卓球をする",
             "誰かを無視する",
             "大声で呼ぶ"
           ]
@@ -1024,12 +1024,12 @@
           "correct_answer": "Something that is easy to use immediately",
           "correct_answer_jp": "すぐに使える、簡単に導入できる",
           "distractors": [
-            "To plug something in",
+            "Charging a device",
             "To play a game",
             "To make something complex"
           ],
           "distractors_jp": [
-            "何かを差し込む",
+            "デバイスを充電する",
             "ゲームをする",
             "何かを複雑にする"
           ]
@@ -1068,12 +1068,12 @@
           "correct_answer": "Reveal a secret",
           "correct_answer_jp": "秘密を暴露する",
           "distractors": [
-            "Spill actual beans",
+            "Cook a meal",
             "Hide information",
             "Tell the truth"
           ],
           "distractors_jp": [
-            "豆をこぼす",
+            "食事を作る",
             "情報を隠す",
             "真実を話す"
           ]
@@ -1094,12 +1094,12 @@
           "correct_answer": "Reveal a secret",
           "correct_answer_jp": "秘密を暴露する",
           "distractors": [
-            "Spill actual beans",
+            "Cook a meal",
             "Hide information",
             "Tell the truth"
           ],
           "distractors_jp": [
-            "豆をこぼす",
+            "食事を作る",
             "情報を隠す",
             "真実を話す"
           ]
@@ -1422,7 +1422,7 @@
           "correct_answer": "To return to a topic or person later",
           "correct_answer_jp": "後で戻る、再検討する",
           "distractors": [
-            "To go in circles",
+            "Drawing a circle",
             "To avoid something",
             "To forget something"
           ],
@@ -1466,12 +1466,12 @@
           "correct_answer": "To investigate something in more detail",
           "correct_answer_jp": "詳しく調べる、深掘りする",
           "distractors": [
-            "To drill a hole",
+            "Using a power tool",
             "To go up",
             "To avoid details"
           ],
           "distractors_jp": [
-            "穴を掘る",
+            "電動工具を使う",
             "上に行く",
             "詳細を避ける"
           ]
@@ -1510,12 +1510,12 @@
           "correct_answer": "To make a noticeable difference or impact",
           "correct_answer_jp": "変化をもたらす、影響を与える",
           "distractors": [
-            "To move a needle",
+            "Sewing clothes",
             "To avoid change",
             "To stay the same"
           ],
           "distractors_jp": [
-            "針を動かす",
+            "服を縫う",
             "変化を避ける",
             "同じまま"
           ]
@@ -1554,12 +1554,12 @@
           "correct_answer": "To think creatively or unconventionally",
           "correct_answer_jp": "既成概念にとらわれない、創造的",
           "distractors": [
-            "To stay in a box",
+            "Living in a small room",
             "To think normally",
             "To follow rules"
           ],
           "distractors_jp": [
-            "箱の中にいる",
+            "小さな部屋に住んでいる",
             "普通に考える",
             "ルールに従う"
           ]
@@ -1598,12 +1598,12 @@
           "correct_answer": "To propose an idea to see what kind of reaction it gets",
           "correct_answer_jp": "試してみる、反応を見る",
           "distractors": [
-            "To raise a flag",
+            "A national holiday",
             "To avoid testing",
             "To ignore feedback"
           ],
           "distractors_jp": [
-            "旗を上げる",
+            "国民の祝日",
             "テストを避ける",
             "フィードバックを無視する"
           ]
@@ -1686,12 +1686,12 @@
           "correct_answer": "To discuss a matter in private",
           "correct_answer_jp": "個別に話し合う、非公開で議論する",
           "distractors": [
-            "To go offline",
+            "Losing internet connection",
             "To ignore something",
             "To avoid discussion"
           ],
           "distractors_jp": [
-            "オフラインになる",
+            "インターネット接続を失う",
             "何かを無視する",
             "議論を避ける"
           ]
@@ -2042,12 +2042,12 @@
           "correct_answer": "Easing a tense situation",
           "correct_answer_jp": "緊張した場面を和らげる",
           "distractors": [
-            "Breaking actual ice",
+            "Making things colder",
             "Starting a fight",
             "Creating silence"
           ],
           "distractors_jp": [
-            "氷を割る",
+            "氷を作る",
             "喧嘩を始める",
             "静寂を作る"
           ]
@@ -2068,12 +2068,12 @@
           "correct_answer": "Easing a tense situation",
           "correct_answer_jp": "緊張した場面を和らげる",
           "distractors": [
-            "Breaking actual ice",
+            "Making things colder",
             "Starting a fight",
             "Creating silence"
           ],
           "distractors_jp": [
-            "氷を割る",
+            "氷を作る",
             "喧嘩を始める",
             "静寂を作る"
           ]
@@ -2130,12 +2130,12 @@
           "correct_answer": "Following rules exactly",
           "correct_answer_jp": "規則通りに従う",
           "distractors": [
-            "Reading a book",
+            "Writing a novel",
             "Acting freely",
             "Ignoring rules"
           ],
           "distractors_jp": [
-            "本を読む",
+            "小説を書く",
             "自由に行動する",
             "規則を無視する"
           ]
@@ -2156,12 +2156,12 @@
           "correct_answer": "Following rules exactly",
           "correct_answer_jp": "規則通りに従う",
           "distractors": [
-            "Reading a book",
+            "Writing a novel",
             "Acting freely",
             "Ignoring rules"
           ],
           "distractors_jp": [
-            "本を読む",
+            "小説を書く",
             "自由に行動する",
             "規則を無視する"
           ]
@@ -2169,4 +2169,4 @@
       }
     }
   }
-} 
+}
