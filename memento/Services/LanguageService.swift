@@ -436,4 +436,50 @@ class LanguageService: ObservableObject {
         return isJapanese ? "戻る" : "Back"
     }
     
+    // MARK: - Level Translations
+
+    struct LevelInfo {
+        let title: String
+        let description: String
+    }
+
+    func levelInfo(for level: String) -> LevelInfo {
+        if isJapanese {
+            switch level {
+            case "A1": return LevelInfo(title: "スターター", description: "非常に基本的な表現")
+            case "A2": return LevelInfo(title: "初心者", description: "基本的なイディオム")
+            case "B1": return LevelInfo(title: "初級", description: "一般的な表現")
+            case "B2": return LevelInfo(title: "中級", description: "高度なフレーズ")
+            case "C1": return LevelInfo(title: "上級", description: "複雑なイディオム")
+            case "C2": return LevelInfo(title: "エキスパート", description: "マスターレベル")
+            default: return LevelInfo(title: "", description: "")
+            }
+        } else {
+            switch level {
+            case "A1": return LevelInfo(title: "Starter", description: "Very basic expressions")
+            case "A2": return LevelInfo(title: "Beginner", description: "Basic idioms")
+            case "B1": return LevelInfo(title: "Elementary", description: "Common expressions")
+            case "B2": return LevelInfo(title: "Intermediate", description: "Advanced phrases")
+            case "C1": return LevelInfo(title: "Advanced", description: "Complex idioms")
+            case "C2": return LevelInfo(title: "Expert", description: "Master level")
+            default: return LevelInfo(title: "", description: "")
+            }
+        }
+    }
+
+    func questionTypeTitle(for type: QuizQuestionType) -> String {
+        if isJapanese {
+            switch type {
+            case .meaning: return "意味"
+            case .fillBlank: return "穴埋め"
+            case .context: return "文脈"
+            }
+        } else {
+            switch type {
+            case .meaning: return "Meaning"
+            case .fillBlank: return "Fill in the Blank"
+            case .context: return "Context"
+            }
+        }
+    }
 } 
