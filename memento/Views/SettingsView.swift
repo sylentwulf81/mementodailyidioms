@@ -231,7 +231,7 @@ struct SettingsView: View {
                 .padding()
             }
             .navigationTitle(languageService.settingsTitle)
-            .sheet(isPresented: $paywallManager.isShowingPaywall) {
+		.sheet(isPresented: paywallManager.isShowingBinding) {
                 PaywallView()
                     .environmentObject(paywallManager)
             }

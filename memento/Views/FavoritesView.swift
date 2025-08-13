@@ -59,7 +59,7 @@ struct FavoritesView: View {
             .onReceive(userProgressService.objectWillChange) {
                 loadFavoriteIdioms()
             }
-            .sheet(isPresented: $paywallManager.isShowingPaywall) {
+		.sheet(isPresented: paywallManager.isShowingBinding) {
                 PaywallView()
                     .environmentObject(paywallManager)
             }

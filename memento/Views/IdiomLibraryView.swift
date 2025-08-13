@@ -83,7 +83,7 @@ struct IdiomLibraryView: View {
                     }
                 }
             }
-            .sheet(isPresented: $paywallManager.isShowingPaywall) {
+		.sheet(isPresented: paywallManager.isShowingBinding) {
                 PaywallView()
                     .environmentObject(paywallManager)
             }

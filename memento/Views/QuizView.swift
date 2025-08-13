@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import SwiftData
 
 struct QuizView: View {
     @StateObject private var dailyIdiomService = DailyIdiomService()
@@ -27,65 +26,35 @@ struct QuizView: View {
     
     var body: some View {
         NavigationView {
-            VStack {
-                if showingResults {
-                    QuizResultsView(score: score, totalQuestions: questions.count) {
-                        startNewQuiz()
-                    }
-                } else if questions.isEmpty {
-                    if selectedLevel == nil {
-                        QuizLevelSelectionView(
-                            onLevelSelected: { level in
-                                selectedLevel = level
-                                startNewQuiz(for: level)
-                            },
-                            onProUpgrade: {
-                                paywallManager.showPaywall()
-                            }
-                        )
-                    } else {
-                        QuizStartView {
-                            startNewQuiz(for: selectedLevel!)
-                        }
-                    }
-                } else {
-                    VStack {
-                        // Progress bar at the top
-                        QuizProgressView(
-                            currentQuestion: currentQuestionIndex + 1,
-                            totalQuestions: questions.count,
-                            answeredQuestions: answeredQuestions
-                        )
-                        .padding(.horizontal)
-                        
-                        QuizQuestionView(
-                            question: questions[currentQuestionIndex],
-                            selectedAnswer: $selectedAnswer,
-                            onAnswerSelected: { answerIndex in
-                                handleAnswer(answerIndex)
-                            }
-                        )
-                    }
-                }
-            }
+            QuizScreenView(
+                showingResults: showingResults,
+                questions: questions,
+                currentQuestionIndex: currentQuestionIndex,
+                answeredQuestions: answeredQuestions,
+                selectedLevel: selectedLevel,
+                selectedAnswer: $selectedAnswer,
+                score: score,
+                onSelectLevel: { level in
+                    selectedLevel = level
+                    startNewQuiz(for: level)
+                },
+                onStartSelectedLevel: { startNewQuiz(for: selectedLevel!) },
+                onTryAgain: { startNewQuiz(for: selectedLevel) },
+                onAnswer: { answerIndex in handleAnswer(answerIndex) },
+                onProUpgrade: { paywallManager.showPaywall() }
+            )
             .navigationTitle(languageService.quizTitle)
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                if !questions.isEmpty && !showingResults {
-                    ToolbarItem(placement: .navigationBarLeading) {
-                        Button(languageService.exitButton) {
-                            showingExitAlert = true
-                        }
-                        .foregroundColor(.red)
-                    }
-                } else if selectedLevel != nil && questions.isEmpty {
-                    ToolbarItem(placement: .navigationBarLeading) {
-                        Button(languageService.backButton) {
-                            selectedLevel = nil
-                        }
-                        .foregroundColor(.blue)
-                    }
-                }
+                QuizToolbarControls(
+                    hasQuestions: !questions.isEmpty,
+                    showingResults: showingResults,
+                    hasSelectedLevel: selectedLevel != nil,
+                    exitTitle: languageService.exitButton,
+                    backTitle: languageService.backButton,
+                    onExit: { showingExitAlert = true },
+                    onBack: { selectedLevel = nil }
+                )
             }
             .alert(languageService.quizExitTitle, isPresented: $showingExitAlert) {
                 Button(languageService.exitButton, role: .destructive) {
@@ -95,7 +64,7 @@ struct QuizView: View {
             } message: {
                 Text(languageService.quizExitMessage)
             }
-            .sheet(isPresented: $paywallManager.isShowingPaywall) {
+            .sheet(isPresented: paywallManager.isShowingBinding) {
                 PaywallView()
                     .environmentObject(paywallManager)
             }
@@ -143,6 +112,24 @@ struct QuizView: View {
             return .context
         }
     }
+
+    private func generateQuizQuestions(from idioms: [Idiom], level: String?) -> [QuizQuestion] {
+        let selectedIdioms = Array(idioms.shuffled().prefix(3))
+        var generated: [QuizQuestion] = []
+        for idiom in selectedIdioms {
+            let idiomQuestions = quizQuestionService.getQuestionsForIdiom(idiom, languageService: languageService)
+            let mapped = idiomQuestions.map { iq in
+                QuizQuestion(
+                    question: iq.question,
+                    options: iq.options,
+                    correctAnswer: iq.correctAnswer,
+                    type: convertToQuizQuestionType(iq.type)
+                )
+            }
+            generated.append(contentsOf: mapped)
+        }
+        return Array(generated.shuffled().prefix(3))
+    }
     
     private func exitQuiz() {
         questions = []
@@ -174,7 +161,8 @@ struct QuizView: View {
             }
         }
     }
-    
+}
+
 #Preview {
     QuizView()
         .environmentObject(LanguageService())
