@@ -83,16 +83,20 @@ struct IdiomLibraryView: View {
                     }
                 }
             }
-            .sheet(isPresented: $paywallManager.isShowingPaywall) {
+		.sheet(isPresented: paywallManager.isShowingBinding) {
                 PaywallView()
                     .environmentObject(paywallManager)
             }
-            .popover(isPresented: $showingUnlockPrompt) {
+            .sheet(isPresented: $showingUnlockPrompt) {
                 if let idiom = selectedIdiom {
                     UnlockPromptView(
                         idiom: idiom,
                         onUnlock: {
-                            paywallManager.showPaywall()
+                            showingUnlockPrompt = false
+                            // Small delay to ensure the unlock prompt is dismissed before showing paywall
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                                paywallManager.showPaywall()
+                            }
                         },
                         onDismiss: {
                             showingUnlockPrompt = false
@@ -286,41 +290,58 @@ struct UnlockPromptView: View {
     let onUnlock: () -> Void
     let onDismiss: () -> Void
     @EnvironmentObject private var languageService: LanguageService
+    @Environment(\.dismiss) private var dismiss
     
     var body: some View {
-        VStack(spacing: 24) {
-            Image(systemName: idiom.isPremium ? "crown.fill" : "lock.fill")
-                .font(.system(size: 48))
-                .foregroundColor(idiom.isPremium ? .yellow : .orange)
-            
-            Text(idiom.isPremium ? 
-                 languageService.thisIdiomIsProOnly : 
-                 languageService.proFeatureTitle)
-                .font(.title2)
-                .fontWeight(.bold)
-                .multilineTextAlignment(.center)
-            
-            Text(idiom.isPremium ?
-                 languageService.proFeatureDescription :
-                 languageService.proFeatureDescription)
-                .font(.body)
-                .foregroundColor(.secondary)
-                .multilineTextAlignment(.center)
-            
-            VStack(spacing: 12) {
-                Button(languageService.tryProButton) {
-                    onUnlock()
-                }
-                .buttonStyle(.borderedProminent)
-                .controlSize(.large)
+        NavigationView {
+            VStack(spacing: 0) {
+                // Handlebar indicator
+                HandlebarIndicator()
                 
-                Button(languageService.laterButton) {
-                    onDismiss()
+                VStack(spacing: 24) {
+                    Image(systemName: idiom.isPremium ? "crown.fill" : "lock.fill")
+                        .font(.system(size: 48))
+                        .foregroundColor(idiom.isPremium ? .yellow : .orange)
+                    
+                    Text(idiom.isPremium ? 
+                         languageService.thisIdiomIsProOnly : 
+                         languageService.proFeatureTitle)
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .multilineTextAlignment(.center)
+                    
+                    Text(idiom.isPremium ?
+                         languageService.proFeatureDescription :
+                         languageService.proFeatureDescription)
+                        .font(.body)
+                        .foregroundColor(.secondary)
+                        .multilineTextAlignment(.center)
+                    
+                    VStack(spacing: 12) {
+                        Button(languageService.tryProButton) {
+                            onUnlock()
+                        }
+                        .buttonStyle(.borderedProminent)
+                        .controlSize(.large)
+                        
+                        Button(languageService.laterButton) {
+                            onDismiss()
+                        }
+                        .foregroundColor(.secondary)
+                    }
                 }
-                .foregroundColor(.secondary)
+                .padding()
+            }
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button("✕") {
+                        onDismiss()
+                    }
+                    .foregroundColor(.secondary)
+                }
             }
         }
-        .padding()
     }
 }
 

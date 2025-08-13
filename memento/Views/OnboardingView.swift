@@ -121,7 +121,7 @@ struct OnboardingView: View {
             }
             .navigationBarHidden(true)
         }
-        .sheet(isPresented: $paywallManager.isShowingPaywall) {
+		.sheet(isPresented: paywallManager.isShowingBinding) {
             PaywallView()
                 .environmentObject(paywallManager)
         }

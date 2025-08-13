@@ -52,7 +52,7 @@ struct GentleProPrompt: View {
                 .shadow(color: .black.opacity(0.1), radius: 10, x: 0, y: 4)
         )
         .padding(.horizontal, 20)
-        .sheet(isPresented: $paywallManager.isShowingPaywall) {
+		.sheet(isPresented: paywallManager.isShowingBinding) {
             PaywallView()
                 .environmentObject(paywallManager)
         }

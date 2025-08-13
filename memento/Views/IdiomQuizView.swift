@@ -412,11 +412,11 @@ struct IdiomQuizResultsView: View {
             Image(systemName: percentage >= 60 ? "star.fill" : "star")
                 .font(.system(size: 64))
                 .foregroundColor(percentage >= 60 ? .yellow : .gray)
-            
+
             // Score display
             VStack(spacing: 8) {
-                Text(languageService.isJapanese ? 
-                     "\(score)/\(totalQuestions) 正解" : 
+                Text(languageService.isJapanese ?
+                     "\(score)/\(totalQuestions) 正解" :
                      "\(score)/\(totalQuestions) correct")
                     .font(.title2)
                     .fontWeight(.semibold)
@@ -437,8 +437,8 @@ struct IdiomQuizResultsView: View {
                 HStack {
                     Image(systemName: "trophy.fill")
                         .foregroundColor(.yellow)
-                    Text(languageService.isJapanese ? 
-                         "新しい記録！" : 
+                    Text(languageService.isJapanese ?
+                         "新しい記録！" :
                          "New record!")
                         .font(.subheadline)
                         .fontWeight(.semibold)

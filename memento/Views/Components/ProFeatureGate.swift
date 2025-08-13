@@ -36,7 +36,7 @@ struct ProFeatureGate<Content: View>: View {
                 .buttonStyle(.borderedProminent)
             }
             .padding()
-            .sheet(isPresented: $paywallManager.isShowingPaywall) {
+		.sheet(isPresented: paywallManager.isShowingBinding) {
                 PaywallView()
                     .environmentObject(paywallManager)
             }
