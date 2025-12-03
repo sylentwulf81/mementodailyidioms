@@ -9,6 +9,10 @@ class UserProgressService: ObservableObject {
     @AppStorage("firstLaunchDate") private var firstLaunchDate: Date = Date()
     @AppStorage("lastActiveDate") private var lastActiveDate: Date = Date()
     @AppStorage("streakDays") private var streakDays: Int = 0
+    @AppStorage("lastQuizCompletionDate") private var lastQuizCompletionDate: Double = 0
+    @AppStorage("lastFavoriteAddedDate") private var lastFavoriteAddedDate: Double = 0
+    
+    @Published var latestMilestone: Int? = nil
     
     // Individual idiom tracking
     @AppStorage("viewedIdioms") private var viewedIdiomsData: Data = Data()
@@ -78,6 +82,7 @@ class UserProgressService: ObservableObject {
     
     func recordQuizCompletion() {
         quizzesCompleted += 1
+        lastQuizCompletionDate = Date().timeIntervalSince1970
         updateLastActiveDate()
     }
     
@@ -126,6 +131,7 @@ class UserProgressService: ObservableObject {
     
     func recordFavoriteAdded(_ idiomId: String) {
         updateLastActiveDate()
+        lastFavoriteAddedDate = Date().timeIntervalSince1970
         addFavoriteIdiom(idiomId)
     }
     
@@ -170,8 +176,10 @@ class UserProgressService: ObservableObject {
     }
     
     private func showMilestoneCelebration(count: Int) {
-        // This will be implemented in the UI layer
-        // For now, we just track the milestone
+        // Trigger UI update
+        DispatchQueue.main.async {
+            self.latestMilestone = count
+        }
     }
     
     // MARK: - Progress Getters
@@ -218,6 +226,10 @@ class UserProgressService: ObservableObject {
         milestone5Reached = false
         milestone10Reached = false
         milestone20Reached = false
+        
+        lastQuizCompletionDate = 0
+        lastFavoriteAddedDate = 0
+        latestMilestone = nil
     }
     
     var averageIdiomsPerDay: Double {
@@ -264,6 +276,16 @@ class UserProgressService: ObservableObject {
     
     var shouldShowEncouragement: Bool {
         return daysSinceFirstLaunch >= 3 && averageIdiomsPerDay < 0.5
+    }
+    
+    // MARK: - Date Helpers
+    
+    func getLastQuizDate() -> Date? {
+        return lastQuizCompletionDate > 0 ? Date(timeIntervalSince1970: lastQuizCompletionDate) : nil
+    }
+    
+    func getLastFavoriteDate() -> Date? {
+        return lastFavoriteAddedDate > 0 ? Date(timeIntervalSince1970: lastFavoriteAddedDate) : nil
     }
     
     // MARK: - Individual Idiom Tracking

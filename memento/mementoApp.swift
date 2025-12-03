@@ -11,11 +11,11 @@ import SwiftData
 @main
 struct mementoApp: App {
     @State private var showingOnboarding = false
+    @StateObject private var subscriptionService = SubscriptionService()
     
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
-            UserProgress.self,
+            Item.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -31,7 +31,9 @@ struct mementoApp: App {
             ContentView()
                 .environmentObject(LanguageService())
                 .environmentObject(UserProgressService())
+                .environmentObject(UserProgressService())
                 .environmentObject(PaywallManager())
+                .environmentObject(subscriptionService)
                 .onAppear {
                     // Check if user has seen onboarding
                     let hasSeenOnboarding = UserDefaults.standard.bool(forKey: "hasSeenOnboarding")
@@ -43,6 +45,7 @@ struct mementoApp: App {
                     OnboardingView()
                         .environmentObject(LanguageService())
                         .environmentObject(PaywallManager())
+                        .environmentObject(subscriptionService)
                 }
         }
         .modelContainer(sharedModelContainer)

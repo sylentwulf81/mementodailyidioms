@@ -14,6 +14,8 @@ struct DashboardView: View {
     @State private var showingOnboarding = false
     @State private var showingFavorites = false
     @Binding var selectedTab: Int
+    @State private var showingMilestoneAlert = false
+    @State private var milestoneCount = 0
     
     private var todaysIdiom: Idiom {
         dailyIdiomService.getTodaysIdiom(with: userProgressService)
@@ -65,6 +67,23 @@ struct DashboardView: View {
             }
             .sheet(isPresented: $showingFavorites) {
                 FavoritesView()
+            }
+            .onChange(of: userProgressService.latestMilestone) { oldValue, newValue in
+                if let count = newValue {
+                    milestoneCount = count
+                    showingMilestoneAlert = true
+                }
+            }
+            .alert(isPresented: $showingMilestoneAlert) {
+                Alert(
+                    title: Text(languageService.isJapanese ? "おめでとうございます！" : "Congratulations!"),
+                    message: Text(languageService.isJapanese ?
+                                  "\(milestoneCount)個のイディオムを学習しました！素晴らしい進歩です。" :
+                                  "You've viewed \(milestoneCount) idioms! That's amazing progress."),
+                    dismissButton: .default(Text(languageService.isJapanese ? "ありがとう！" : "Thanks!")) {
+                        userProgressService.latestMilestone = nil
+                    }
+                )
             }
         }
     }
@@ -351,33 +370,35 @@ struct RecentActivitySection: View {
             
             VStack(spacing: 12) {
                 if userProgressService.totalQuizzesCompleted > 0 {
+                    let dateString = getRelativeDateString(from: userProgressService.getLastQuizDate())
                     ActivityRow(
                         icon: "brain.head.profile",
                         title: languageService.completedQuiz,
-                        subtitle: languageService.yesterdayLabel,
+                        subtitle: dateString,
                         color: .green
                     )
                 }
                 
                 if userProgressService.totalFavoritesAdded > 0 {
+                    let dateString = getRelativeDateString(from: userProgressService.getLastFavoriteDate())
                     ActivityRow(
                         icon: "heart.fill",
                         title: languageService.addedToFavorites,
-                        subtitle: "2 \(languageService.daysAgoLabel)",
+                        subtitle: dateString,
                         color: .red
                     )
                 }
                 
                 // Show empty state if no activity
-                if userProgressService.totalQuizzesCompleted == 0 && 
+                if userProgressService.totalQuizzesCompleted == 0 &&
                    userProgressService.totalFavoritesAdded == 0 {
                     VStack(spacing: 8) {
                         Image(systemName: "sparkles")
                             .font(.title2)
                             .foregroundColor(.secondary)
                         
-                        Text(languageService.isJapanese ? 
-                             "今日から学習を始めましょう！" : 
+                        Text(languageService.isJapanese ?
+                             "今日から学習を始めましょう！" :
                              "Start learning today!")
                             .font(.subheadline)
                             .foregroundColor(.secondary)
@@ -389,6 +410,20 @@ struct RecentActivitySection: View {
                     .cornerRadius(8)
                 }
             }
+        }
+    }
+    
+    private func getRelativeDateString(from date: Date?) -> String {
+        guard let date = date else { return "" }
+        
+        let calendar = Calendar.current
+        if calendar.isDateInToday(date) {
+            return languageService.todayLabel
+        } else if calendar.isDateInYesterday(date) {
+            return languageService.yesterdayLabel
+        } else {
+            let days = calendar.dateComponents([.day], from: date, to: Date()).day ?? 0
+            return "\(days) \(languageService.daysAgoLabel)"
         }
     }
 }
@@ -431,4 +466,4 @@ struct ActivityRow: View {
     DashboardView(selectedTab: .constant(0))
         .environmentObject(LanguageService())
         .environmentObject(UserProgressService())
-} 
+}

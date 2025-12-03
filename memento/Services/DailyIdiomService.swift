@@ -291,6 +291,8 @@ class DailyIdiomService: ObservableObject {
     
     private func mapAudioFileForIdiom(id: String, title: String) -> String? {
         // Map specific idioms to their audio files
+        // TODO: In a production app, this should be dynamic or fetched from a server
+        // Currently hardcoded for demo purposes
         switch id {
         case "A1-1":
             return "A1-1_long_time_no_see"

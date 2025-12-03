@@ -8,26 +8,82 @@
 import Foundation
 import SwiftUI
 
+import Foundation
+import SwiftUI
+import StoreKit
+
+@MainActor
 class SubscriptionService: ObservableObject {
     @AppStorage("isPro") var isProUser: Bool = false
+    @Published var products: [Product] = []
     
-    // Mock data for development - will be replaced with StoreKit2
-    var hasActiveSubscription: Bool {
-        return isProUser
+    private let productIds = ["com.memento.pro.monthly", "com.memento.pro.yearly"]
+    private var updates: Task<Void, Never>? = nil
+    
+    init() {
+        updates = listenForTransactions()
     }
     
-    func upgradeToPro() {
-        // TODO: Implement StoreKit2 purchase flow
-        isProUser = true
+    deinit {
+        updates?.cancel()
     }
     
-    func restorePurchases() {
-        // TODO: Implement StoreKit2 restore
-        print("Restoring purchases...")
+    func loadProducts() async {
+        do {
+            products = try await Product.products(for: productIds)
+            products.sort { $0.price < $1.price }
+            print("SubscriptionService: Loaded \(products.count) products")
+        } catch {
+            print("SubscriptionService: Failed to load products: \(error)")
+        }
     }
     
-    func checkSubscriptionStatus() {
-        // TODO: Implement StoreKit2 status check
-        print("Checking subscription status...")
+    func purchase(_ product: Product) async throws {
+        let result = try await product.purchase()
+        
+        switch result {
+        case .success(let verification):
+            if let transaction = try? verification.payloadValue {
+                await transaction.finish()
+                isProUser = true
+                print("SubscriptionService: Purchase successful")
+            }
+        case .userCancelled:
+            print("SubscriptionService: User cancelled")
+        case .pending:
+            print("SubscriptionService: Purchase pending")
+        @unknown default:
+            break
+        }
+    }
+    
+    func restorePurchases() async {
+        print("SubscriptionService: Restoring purchases...")
+        try? await AppStore.sync()
+        await updateSubscriptionStatus()
+    }
+    
+    func updateSubscriptionStatus() async {
+        var hasActive = false
+        for await result in Transaction.currentEntitlements {
+            if let transaction = try? result.payloadValue {
+                if transaction.revocationDate == nil {
+                    hasActive = true
+                }
+            }
+        }
+        isProUser = hasActive
+        print("SubscriptionService: Updated status. Pro: \(isProUser)")
+    }
+    
+    private func listenForTransactions() -> Task<Void, Never> {
+        return Task.detached {
+            for await result in Transaction.updates {
+                if let transaction = try? result.payloadValue {
+                    await transaction.finish()
+                    await self.updateSubscriptionStatus()
+                }
+            }
+        }
     }
 } 

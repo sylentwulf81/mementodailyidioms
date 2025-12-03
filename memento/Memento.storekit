@@ -1,0 +1,97 @@
+{
+  "identifier" : "3A123456",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21345678",
+      "localizations" : [
+
+      ],
+      "name" : "Pro Access",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "64455667",
+          "introductoryOffer" : {
+            "internalID" : "89922334",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1W"
+          },
+          "localizations" : [
+            {
+              "description" : "Unlock all features",
+              "displayName" : "Monthly Pro",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "すべての機能をアンロック",
+              "displayName" : "月額プロ",
+              "locale" : "ja_JP"
+            }
+          ],
+          "productID" : "com.memento.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Monthly Pro",
+          "subscriptionGroupID" : "21345678",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "49.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "64455668",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlock all features",
+              "displayName" : "Yearly Pro",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "すべての機能をアンロック",
+              "displayName" : "年額プロ",
+              "locale" : "ja_JP"
+            }
+          ],
+          "productID" : "com.memento.pro.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Yearly Pro",
+          "subscriptionGroupID" : "21345678",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

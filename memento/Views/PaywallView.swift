@@ -6,11 +6,13 @@
 //
 
 import SwiftUI
+import StoreKit
 
 struct PaywallView: View {
     @Environment(\.dismiss) private var dismiss
-    @AppStorage("isPro") var isPro = false
     @EnvironmentObject private var paywallManager: PaywallManager
+    @EnvironmentObject private var subscriptionService: SubscriptionService
+    @EnvironmentObject private var languageService: LanguageService
     
     var body: some View {
         NavigationView {
@@ -30,50 +32,72 @@ struct PaywallView: View {
                                 .font(.largeTitle)
                                 .fontWeight(.bold)
                             
-                            Text("アメリカ英語のイディオムを深く理解する")
+                            Text(languageService.isJapanese ? "アメリカ英語のイディオムを深く理解する" : "Deeply understand American English idioms")
                                 .font(.headline)
                                 .foregroundColor(.secondary)
+                                .multilineTextAlignment(.center)
                         }
                         
                         // Features
                         VStack(alignment: .leading, spacing: 16) {
-                            Text("Pro会員の特典")
+                            Text(languageService.isJapanese ? "Pro会員の特典" : "Pro Benefits")
                                 .font(.title2)
                                 .fontWeight(.semibold)
                             
                             VStack(alignment: .leading, spacing: 12) {
-                                FeatureRow(icon: "book.fill", title: "全イディオムライブラリ", description: "120以上のイディオムにアクセス")
-                                FeatureRow(icon: "speaker.wave.2.fill", title: "自然な音声", description: "ElevenLabsの高品質音声")
-                                FeatureRow(icon: "wifi.slash", title: "オフライン音声", description: "ダウンロードしてオフラインで利用")
-                                FeatureRow(icon: "pencil.and.outline", title: "無制限クイズ", description: "好きなだけ練習できます")
+                                FeatureRow(icon: "book.fill", 
+                                          title: languageService.isJapanese ? "全イディオムライブラリ" : "Full Idiom Library", 
+                                          description: languageService.isJapanese ? "120以上のイディオムにアクセス" : "Access 120+ idioms")
+                                FeatureRow(icon: "speaker.wave.2.fill", 
+                                          title: languageService.isJapanese ? "自然な音声" : "Natural Audio", 
+                                          description: languageService.isJapanese ? "ElevenLabsの高品質音声" : "High-quality ElevenLabs audio")
+                                FeatureRow(icon: "wifi.slash", 
+                                          title: languageService.isJapanese ? "オフライン音声" : "Offline Audio", 
+                                          description: languageService.isJapanese ? "ダウンロードしてオフラインで利用" : "Download for offline use")
+                                FeatureRow(icon: "pencil.and.outline", 
+                                          title: languageService.isJapanese ? "無制限クイズ" : "Unlimited Quizzes", 
+                                          description: languageService.isJapanese ? "好きなだけ練習できます" : "Practice as much as you want")
                             }
                         }
                         
-                        // Pricing
+                        // Pricing & Purchase Buttons
                         VStack(spacing: 16) {
-                            VStack(spacing: 8) {
-                                Text("月額 ¥360")
-                                    .font(.title)
-                                    .fontWeight(.bold)
-                                
-                                Text("7日間無料トライアル")
-                                    .font(.caption)
-                                    .foregroundColor(.secondary)
+                            if subscriptionService.products.isEmpty {
+                                ProgressView()
+                                    .padding()
+                            } else {
+                                ForEach(subscriptionService.products) { product in
+                                    Button(action: {
+                                        Task {
+                                            try? await subscriptionService.purchase(product)
+                                            if subscriptionService.isProUser {
+                                                paywallManager.hidePaywall()
+                                                dismiss()
+                                            }
+                                        }
+                                    }) {
+                                        VStack(spacing: 4) {
+                                            Text(product.displayName)
+                                                .font(.headline)
+                                            Text(product.displayPrice)
+                                                .font(.subheadline)
+                                        }
+                                        .frame(maxWidth: .infinity)
+                                        .padding()
+                                        .background(Color.blue)
+                                        .foregroundColor(.white)
+                                        .cornerRadius(12)
+                                    }
+                                }
                             }
                             
-                            Button("Pro会員になる") {
-                                // TODO: Implement StoreKit2 purchase
-                                isPro = true
-                                paywallManager.hidePaywall()
-                                dismiss()
-                            }
-                            .buttonStyle(.borderedProminent)
-                            .controlSize(.large)
-                            
-                            Button("購入を復元") {
-                                // TODO: Implement StoreKit2 restore
+                            Button(languageService.restorePurchasesButton) {
+                                Task {
+                                    await subscriptionService.restorePurchases()
+                                }
                             }
                             .font(.caption)
+                            .foregroundColor(.secondary)
                         }
                     }
                     .padding()
@@ -83,11 +107,14 @@ struct PaywallView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("閉じる") {
+                    Button(languageService.isJapanese ? "閉じる" : "Close") {
                         paywallManager.hidePaywall()
                         dismiss()
                     }
                 }
+            }
+            .task {
+                await subscriptionService.loadProducts()
             }
         }
     }
@@ -122,4 +149,5 @@ struct FeatureRow: View {
     PaywallView()
         .environmentObject(LanguageService())
         .environmentObject(PaywallManager())
+        .environmentObject(SubscriptionService())
 } 

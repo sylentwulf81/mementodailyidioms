@@ -15,6 +15,7 @@ struct SettingsView: View {
     @State private var showingAbout = false
     @State private var showingAITranslation = false
     @EnvironmentObject private var languageService: LanguageService
+    @EnvironmentObject private var subscriptionService: SubscriptionService
     
     var body: some View {
         NavigationView {
@@ -46,7 +47,9 @@ struct SettingsView: View {
                                     iconColor: .blue,
                                     title: languageService.restorePurchasesLabel,
                                     action: {
-                                        // TODO: Implement StoreKit2 restore
+                                        Task {
+                                            await subscriptionService.restorePurchases()
+                                        }
                                     }
                                 )
                             }
@@ -700,4 +703,5 @@ struct DatePickerSheet: View {
     SettingsView()
         .environmentObject(LanguageService())
         .environmentObject(PaywallManager())
+        .environmentObject(SubscriptionService())
 } 
